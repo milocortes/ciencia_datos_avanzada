@@ -406,21 +406,23 @@
 
   [
 
-    #text(font: "Lato", size : 18pt)[
+    #text(font: "Lato", size : 16pt)[
   ```python 
-  >>> table = pa.table([
-    pa.array([1, 2, 3, 4, 5]),
-    pa.array(["a", "b", "c", "d", "e"]),
-    pa.array([1.0, 2.0, 3.0, 4.0, 5.0]),
-  ], names = ["col1", "col2", "col3"])
-  >>> table.take([0, 1, 4])
-  col1: [[1,2,5]]
-  col2: [["a","b","e"]]
-  col3: [[1,2,5]] 
-  >>> table.schema
-  col1: int64
-  col2: string
-  col3: double
+  >>> from deltalake import DeltaTable
+  >>> import pyarrow.dataset as ds
+
+  # Cargamos la Delta table
+  >>> dt = DeltaTable("datos/atlas")
+
+  # Convertimos a PyArrow Dataset
+  >>> dataset = dt.to_pyarrow_dataset()
+
+  # Observamos los primeros 10 registros
+  >>> dataset.head(10)
+
+  # Filtramos sólo registros de México en 2024
+  >>> filtrado = dataset.scanner(filter=ds.field("year") == 2024).to_table()
+
   ```
     ]
 
