@@ -421,7 +421,7 @@
   >>> dataset.head(10)
 
   # Filtramos sólo registros de México en 2024
-  >>> filtrado = dataset.scanner(filter=ds.field("year") == 2024).to_table()
+  >>> filtrado = dataset.scanner(filter=ds.field("year") == 2024)#.to_table()
 
   ```
     ]
