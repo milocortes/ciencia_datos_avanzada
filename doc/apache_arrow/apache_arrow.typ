@@ -38,7 +38,7 @@
 
   Hermilo
 
-  4 de Septiembre 2025
+  17 de Febrero de 2026
 ]
 
 #slide[
@@ -93,6 +93,52 @@
   - De manera que el tipo fundamental de datos en PyArrow es una *columna de datos* la cual es expuesta por mendio de un objeto `pyarrow.Array`. 
   - A este nivel, PyArrow es similar a los arreglos 1D de #text(fill: ukj-blue)[*NumPy*]. 
   ]
+]
+
+#slide[
+  == ¿Qué es #text(fill: ukj-blue)[*Columnar*]?
+    #toolbox.side-by-side(gutter: 3mm, columns: (2fr, 1.5fr), 
+
+  [
+        #figure(
+        image("images/apache_arrow_columnas.png", width: 100%),
+        numbering: none
+      )
+
+  ], 
+        [
+        #figure(
+        image("images/apache_arrow_columnas_dos.png", width: 75%),
+        numbering: none
+      )
+
+      ]
+
+  )
+]
+
+#slide[
+  == ¿Qué es #text(fill: ukj-blue)[*Columnar*]?
+    #toolbox.side-by-side(gutter: 3mm, columns: (2fr, 1.5fr), 
+
+  [
+    Con el formato columnar se aprovecha : 
+    - Localidad de Memoria.
+    - I/O 
+    - Vectorización
+
+  ], 
+        [
+        - *Consulta* : #text(fill: ukj-blue)[*Todos los arqueros en Europa*], *solo se necesitan dos columnas!*. Menos operaciones de I/O, menos uso de memoria.
+
+        - *Consulta* : #text(fill: ukj-blue)[*Calcula la media para la columna Year*], *solo se necesita una columna!*
+          - Vectorizar operaciones requiere memoria contigua.
+          - La columna ya se encuentra en memoria contigua!
+
+
+      ]
+
+  )
 ]
 #slide[
   == PyArrow Arrays
@@ -406,7 +452,7 @@
 
   [
 
-    #text(font: "Lato", size : 16pt)[
+    #text(font: "Lato", size : 14pt)[
   ```python 
   >>> from deltalake import DeltaTable
   >>> import pyarrow.dataset as ds
@@ -429,9 +475,10 @@
 
   ], 
         [
-        #text(font: "Lato", size : 16pt)[
+        #text(font: "Lato", size : 18pt)[
 
-    - `Datasets` proporciona acceso lazy a grandes volúmenes de datos guardados en cualquiera de los formatos soportados por 
+    - `Datasets` proporciona acceso lazy a grandes volúmenes de datos guardados en cualquiera de los formatos soportados por PyArrow y accesibles mediante cualquier *FileSystems* reconocido por PyArrow.
+    - Los `Datasets` pueden siempre ser convertidos de regreso a `Tables` para tener acceso al conjunto completo de datos mediante la API de `Tables`.
         ]
 
       ]
