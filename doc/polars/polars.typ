@@ -68,7 +68,7 @@
 #slide[
 = Polars : Query Engine for DataFrames
   #figure(
-        image("images/Polars_logo_1.png", width: 80%),
+        image("images/polars-operation.png", width: 60%),
         numbering: none
       )
 
@@ -77,7 +77,7 @@
 #slide[
 = Polars : Query Engine for DataFrames
   #figure(
-        image("images/Polars_logo_1.png", width: 80%),
+        image("images/polars-materialization.png", width: 95%),
         numbering: none
       )
 
@@ -124,22 +124,6 @@
   )
 ]
 
-#slide[
-  == Roadmap de un query 
-
-  #figure(
-        image("images/polars-roadmap.svg", width: 110%),
-        numbering: none
-      )
-]
-
-#slide[
-  == Fase Lógica
-  #figure(
-        image("images/polars-logical.png", width: 110%),
-        numbering: none
-      )
-]
 
 #slide[
   == Optimizaciones
@@ -185,13 +169,6 @@ Wall time: 15.7 μs
 
 ]
 
-#slide[
-  == Paralelismo : Work Stealing
-  #figure(
-        image("images/stealing.png", width: 55%),
-        numbering: none
-      )
-]
 
 #slide[
   == Polars Expressions
@@ -211,3 +188,31 @@ Wall time: 15.7 μs
 
 ]
 
+
+
+#slide[
+  == Fase Lógica
+  #figure(
+        image("images/polars-logical.png", width: 110%),
+        numbering: none
+      )
+]
+
+
+#slide[
+  == Roadmap de un query 
+
+  #figure(
+        image("images/polars-roadmap.svg", width: 110%),
+        numbering: none
+      )
+]
+
+
+#slide[
+  == Paralelismo : Work Stealing
+  #figure(
+        image("images/stealing.png", width: 55%),
+        numbering: none
+      )
+]
