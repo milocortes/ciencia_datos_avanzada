@@ -28,7 +28,7 @@ def _():
     import numpy as np
 
     import polars.selectors as cs
-    return alt, math, np, pd, pl
+    return alt, np, pd, pl
 
 
 @app.cell(hide_code=True)
@@ -41,24 +41,12 @@ def _(mo):
 
 
 @app.cell
-def _(pl):
-    ## Cargamos los datos
-    anio = 2023
-    datos_atlas_url = "../datos/hs92_country_product_year_4_2023.csv"
-
-    q = (
-        pl.scan_csv(datos_atlas_url, ignore_errors = True).filter(
-            year=anio
-        )
-    )
-
-    datos = q.collect().drop_nulls("product_hs92_code")
-    return anio, datos
+def _():
+    return
 
 
 @app.cell
-def _(datos):
-    datos
+def _():
     return
 
 
@@ -81,21 +69,8 @@ def _(mo):
 
 
 @app.cell
-def _(datos, pl):
-    datos_rca = datos.with_columns(
-        rca = (
-            pl.col("export_value")/pl.col("export_value").sum().over("country_iso3_code")
-        ) /
-        (
-            pl.col("export_value").sum().over("product_hs92_code")/pl.col("export_value").sum()
-        )
-
-    ).with_columns(
-        pl.col("product_hs92_code").cast(pl.Int64)
-    )
-
-    datos_rca
-    return (datos_rca,)
+def _():
+    return
 
 
 @app.cell(hide_code=True)
@@ -118,40 +93,18 @@ def _(mo):
 
 
 @app.cell
-def _(datos_rca, pl):
-    ## Umbral de RCA
-    rca_umbral = 1.0
-
-    datos_rca_m = datos_rca.with_columns(
-        M = pl.when(
-            pl.col("export_rca")>= rca_umbral   
-        ).then(
-            pl.lit(1)
-        ).otherwise(
-            pl.lit(0)
-        )
-    )
-    return (datos_rca_m,)
+def _():
+    return
 
 
 @app.cell
-def _(datos_rca_m):
-    M_df = datos_rca_m.pivot("product_hs92_code", 
-                      index = "country_iso3_code", 
-                      values = "M"
-                ).fill_null(0).sort("country_iso3_code")
-    M_df
-    return (M_df,)
+def _():
+    return
 
 
 @app.cell
-def _(M_df, pl):
-    M = M_df.select(
-        pl.exclude("country_iso3_code")
-    ).to_numpy()
-
-    M
-    return (M,)
+def _():
+    return
 
 
 @app.cell(hide_code=True)
@@ -169,12 +122,8 @@ def _(mo):
 
 
 @app.cell
-def _(M, np, ubicuidad):
-    proximity = M.T @ M / ubicuidad[np.newaxis, :]  
-    proximity = np.minimum(proximity, proximity.T)
-    proximity = np.nan_to_num(proximity)
-    proximity
-    return (proximity,)
+def _():
+    return
 
 
 @app.cell(hide_code=True)
@@ -192,11 +141,8 @@ def _(mo):
 
 
 @app.cell
-def _(M, np, proximity):
-    density = (np.dot(M,proximity)/np.sum(proximity, axis=1))
-    density = np.nan_to_num(density)
-    density
-    return (density,)
+def _():
+    return
 
 
 @app.cell
@@ -222,11 +168,8 @@ def _(mo):
 
 
 @app.cell
-def _(M, np, proximity):
-    distancia = (np.dot((1 - M),proximity)/np.sum(proximity, axis=1))
-    distancia = np.nan_to_num(distancia)
-    distancia
-    return (distancia,)
+def _():
+    return
 
 
 @app.cell(hide_code=True)
@@ -237,7 +180,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(M_df, distancia, pd, pl):
     ## Convertimos a dataframe la matriz de distancia
     df_distance = pd.DataFrame(distancia, 
@@ -258,7 +201,7 @@ def _(M_df, distancia, pd, pl):
     return (df_distance,)
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(datos_rca, df_distance):
     ### Reunimos los datos calculados 
     df_distancia_test = df_distance.join(
@@ -276,7 +219,7 @@ def _(datos_rca, df_distance):
     return (df_distancia_test,)
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(alt, df_distancia_test):
     ## Graficamos el ajuste del PCI calculado con el del Atlas
     distancia_original_vs_distancia_estimada = (
@@ -386,74 +329,38 @@ def _(mo):
 
 
 @app.cell
-def _(M, np):
-    ## Calculamos diversidad
-    diversidad = M.sum(axis = 1)
-    D = np.diag(diversidad)
-
-    ## Calculamos ubicuidad
-    ubicuidad = M.sum(axis = 0)
-    U = np.diag(ubicuidad)
-    return D, U, diversidad, ubicuidad
+def _():
+    return
 
 
 @app.cell
-def _(D, M, U, np):
-    # Calculamos M tilde cc
-    M_tilde_cc = np.linalg.pinv(D) @ M @ np.linalg.pinv(U) @ M.T
-    M_tilde_cc 
-    return (M_tilde_cc,)
+def _():
+    return
 
 
 @app.cell
-def _(D, M, U, np):
-    # Calculamos M tilde pp
-    M_tilde_pp = np.linalg.pinv(U) @ M.T @ np.linalg.pinv(D) @ M
-    M_tilde_pp 
-    return (M_tilde_pp,)
+def _():
+    return
 
 
 @app.cell
-def _(M_tilde_cc, np):
-    ## Calculamos los eigenvectores y eigenvalores de la matriz M tilde cc
-    eigenvalues_cc, eigenvectors_cc = np.linalg.eig(M_tilde_cc)
-
-    ## Obtenemos el eigenvector asociado con el segundo eigenvalor más grande
-    Kc = eigenvectors_cc[:, 1]
-
-    Kc
-    return (Kc,)
+def _():
+    return
 
 
 @app.cell
-def _(M_tilde_pp, np):
-    ## Calculamos los eigenvectores y eigenvalores de la matriz M tilde cc
-    eigenvalues_pp, eigenvectors_pp = np.linalg.eig(M_tilde_pp)
-
-    ## Obtenemos el eigenvector asociado con el segundo eigenvalor más grande
-    Kp = eigenvectors_pp[:, 1].astype(float)
-
-    Kp 
-    return (Kp,)
+def _():
+    return
 
 
 @app.cell
-def _(Kc, diversidad, math, np):
-    ## Adjust sign of ECI and PCI so it makes sense, as per book
-    corr_mat = np.corrcoef(diversidad, Kc)
-    s1 = math.copysign(1.0, corr_mat[0,1])
-    return (s1,)
+def _():
+    return
 
 
 @app.cell
-def _(Kc, Kp, np, s1):
-    ## Ajustamos y normalizamos ECI y PCI
-    # La normalización usando usando la media y std ECI preserva
-    # Que ---> ECI = (mean of PCI of products for which MCP=1)
-
-    eci = s1*(Kc - np.mean(Kc))/np.std(Kc)
-    pci = (Kp - np.mean(Kp))/np.std(Kp)
-    return eci, pci
+def _():
+    return
 
 
 @app.cell(hide_code=True)
@@ -472,7 +379,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(anio, pl):
     ### Cargamos datos de ECI de los paises
     github_eci_url = "../datos/growth_proj_eci_rankings.csv"
@@ -486,7 +393,7 @@ def _(anio, pl):
     return (eci_atlas,)
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(M_df, eci, eci_atlas, pl):
     ### Reunimos los datos calculados 
     df_eci_test = pl.DataFrame(
@@ -500,7 +407,7 @@ def _(M_df, eci, eci_atlas, pl):
     return (df_eci_test,)
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(alt, df_eci_test):
     ## Graficamos el ajuste del PCI calculado con el del Atlas
     eci_original_vs_pci_estimado = (
@@ -516,7 +423,7 @@ def _(alt, df_eci_test):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(df_eci_test):
     ## Calculamos coeficiente de correlación
     df_eci_test.drop("country_iso3_code").to_pandas().corr()
@@ -531,7 +438,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(M_df, datos, pci, pl):
     ### Reunimos los datos calculados
     df_pci_test = pl.DataFrame(
@@ -545,7 +452,7 @@ def _(M_df, datos, pci, pl):
     return (df_pci_test,)
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(alt, df_pci_test):
     ## Graficamos el ajuste del PCI calculado con el del Atlas
     pci_original_vs_pci_estimado = (
@@ -561,7 +468,7 @@ def _(alt, df_pci_test):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(df_pci_test):
     ## Calculamos coeficiente de correlación
     df_pci_test.drop("product_hs92_code").to_pandas().corr()
@@ -586,7 +493,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(M, density, np, pci):
     # Calculamos Opportunity Value
     ov = ((density.T * (1 - M.T)) * pci[np.newaxis].T).sum(axis=1)
@@ -625,7 +532,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(M, np, pci, proximity):
     #og = (1-M) * ((1 - M) @ (proximity * (pci/ proximity.sum(axis=1))[:, np.newaxis]))
     og = (proximity  @ ((proximity.sum(axis=1)**-1)[np.newaxis].T * (1 - M.T) * (pci[np.newaxis].T))).T
@@ -709,7 +616,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(df_cog_test, df_distancia_test):
     test_growth_opp = df_cog_test.join(
         df_distancia_test,
@@ -719,7 +626,7 @@ def _(df_cog_test, df_distancia_test):
     return (test_growth_opp,)
 
 
-@app.cell
+@app.cell(disabled=True)
 def _(alt, test_growth_opp):
     ## Graficamos el ajuste del PCI calculado con el del Atlas
     alt.Chart(test_growth_opp.filter(country_iso3_code="MEX")).mark_point().encode(
