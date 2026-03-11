@@ -1,0 +1,2925 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d3" for="node" attr.name="y" attr.type="double"/>
+<key id="d2" for="node" attr.name="x" attr.type="double"/>
+<key id="d1" for="node" attr.name="nombre" attr.type="string"/>
+<key id="d0" for="node" attr.name="sector" attr.type="string"/>
+<graph edgedefault="undirected"><node id="1141">
+  <data key="d0">Recursos naturales</data>
+  <data key="d1">Pesca</data>
+  <data key="d2">-867.2667236647637</data>
+  <data key="d3">338.0111338681335</data>
+</node>
+<node id="1125">
+  <data key="d0">Recursos naturales</data>
+  <data key="d1">Acuicultura</data>
+  <data key="d2">-704.2628555229646</data>
+  <data key="d3">384.2658132150963</data>
+</node>
+<node id="1151">
+  <data key="d0">Recursos naturales</data>
+  <data key="d1">Servicios relacionados con la agricultura</data>
+  <data key="d2">-687.2892769580103</data>
+  <data key="d3">509.888446713425</data>
+</node>
+<node id="2123">
+  <data key="d0">Minería y Energía</data>
+  <data key="d1">Minería de minerales no metálicos</data>
+  <data key="d2">-364.3436340706097</data>
+  <data key="d3">555.007402677255</data>
+</node>
+<node id="2361">
+  <data key="d0">Construcción</data>
+  <data key="d1">Edificación residencial</data>
+  <data key="d2">-900.6945632787658</data>
+  <data key="d3">257.5845163212298</data>
+</node>
+<node id="2362">
+  <data key="d0">Construcción</data>
+  <data key="d1">Edificación no residencial</data>
+  <data key="d2">-951.3394018841426</data>
+  <data key="d3">305.20168852890544</data>
+</node>
+<node id="2371">
+  <data key="d0">Construcción</data>
+  <data key="d1">Construcción de obras para el suministro de agua, petróleo, gas, energía eléctrica y telecomunicaciones</data>
+  <data key="d2">-514.6006005742468</data>
+  <data key="d3">335.658200807002</data>
+</node>
+<node id="2372">
+  <data key="d0">Construcción</data>
+  <data key="d1">División de terrenos y construcción de obras de urbanización</data>
+  <data key="d2">-922.135646197808</data>
+  <data key="d3">227.11877981953631</data>
+</node>
+<node id="2381">
+  <data key="d0">Construcción</data>
+  <data key="d1">Cimentaciones, montaje de estructuras prefabricadas y trabajos en exteriores</data>
+  <data key="d2">-755.2566429755483</data>
+  <data key="d3">152.77867377029335</data>
+</node>
+<node id="2382">
+  <data key="d0">Construcción</data>
+  <data key="d1">Instalaciones y equipamiento en construcciones</data>
+  <data key="d2">-736.8131734686588</data>
+  <data key="d3">272.37536112098087</data>
+</node>
+<node id="2383">
+  <data key="d0">Construcción</data>
+  <data key="d1">Trabajos de acabados en edificaciones</data>
+  <data key="d2">-701.2652186287443</data>
+  <data key="d3">280.5728019773383</data>
+</node>
+<node id="2389">
+  <data key="d0">Construcción</data>
+  <data key="d1">Otros trabajos especializados para la construcción</data>
+  <data key="d2">-529.3979699879064</data>
+  <data key="d3">203.50940598927866</data>
+</node>
+<node id="3111">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Elaboración de alimentos balanceados para animales</data>
+  <data key="d2">-818.762227639164</data>
+  <data key="d3">218.14530312333497</data>
+</node>
+<node id="3112">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Molienda de granos y de semillas y obtención de aceites y grasas</data>
+  <data key="d2">-849.0571297478139</data>
+  <data key="d3">197.3514809186939</data>
+</node>
+<node id="3114">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Conservación de frutas, verduras, guisos y otros alimentos preparados</data>
+  <data key="d2">-640.7330994415632</data>
+  <data key="d3">251.39699643730316</data>
+</node>
+<node id="3115">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Elaboración de productos lácteos</data>
+  <data key="d2">-935.9396913229266</data>
+  <data key="d3">192.2895605525764</data>
+</node>
+<node id="3116">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Matanza, empacado y procesamiento de carne de ganado, aves y otros animales comestibles</data>
+  <data key="d2">-733.185600700309</data>
+  <data key="d3">195.41941675761953</data>
+</node>
+<node id="3117">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Preparación y envasado de pescados y mariscos</data>
+  <data key="d2">-686.949398256387</data>
+  <data key="d3">475.3755648497907</data>
+</node>
+<node id="3118">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Elaboración de productos de panadería y tortillas</data>
+  <data key="d2">-1010.4481618802621</data>
+  <data key="d3">104.56242778865499</data>
+</node>
+<node id="3119">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Otras industrias alimentarias</data>
+  <data key="d2">-995.4766826573715</data>
+  <data key="d3">72.1062963995988</data>
+</node>
+<node id="3121">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Industria de las bebidas</data>
+  <data key="d2">-1146.3228929967815</data>
+  <data key="d3">167.13913649395263</data>
+</node>
+<node id="3141">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Confección de alfombras, blancos y similares</data>
+  <data key="d2">-435.865869745205</data>
+  <data key="d3">185.16128013591293</data>
+</node>
+<node id="3219">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros productos de madera</data>
+  <data key="d2">-1180.0697562675377</data>
+  <data key="d3">173.8823184346904</data>
+</node>
+<node id="3231">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Impresión e industrias conexas</data>
+  <data key="d2">-553.5055377666497</data>
+  <data key="d3">231.17249029028716</data>
+</node>
+<node id="3253">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de fertilizantes, plaguicidas y otros agroquímicos</data>
+  <data key="d2">-494.0970331429486</data>
+  <data key="d3">106.3885886032867</data>
+</node>
+<node id="3256">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de jabones, limpiadores y preparaciones de tocador</data>
+  <data key="d2">-380.83195261557194</data>
+  <data key="d3">161.85453734021792</data>
+</node>
+<node id="3271">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos a base de arcillas y minerales refractarios</data>
+  <data key="d2">-883.99261701874</data>
+  <data key="d3">227.851165709516</data>
+</node>
+<node id="3273">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de cemento, concreto y sus productos</data>
+  <data key="d2">-1124.8274349943445</data>
+  <data key="d3">279.37632078962406</data>
+</node>
+<node id="3274">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de cal, yeso y productos de yeso</data>
+  <data key="d2">-643.257334142178</data>
+  <data key="d3">136.990572737828</data>
+</node>
+<node id="3279">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros productos a base de minerales no metálicos</data>
+  <data key="d2">-720.0862584322988</data>
+  <data key="d3">148.49025271949156</data>
+</node>
+<node id="3323">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de estructuras metálicas y productos de herrería</data>
+  <data key="d2">-1015.1575268269323</data>
+  <data key="d3">324.8354645429743</data>
+</node>
+<node id="3324">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de calderas, tanques y envases metálicos</data>
+  <data key="d2">-271.26627453275506</data>
+  <data key="d3">153.34831429109997</data>
+</node>
+<node id="3327">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Maquinado de piezas y fabricación de tornillos</data>
+  <data key="d2">-828.0585204660449</data>
+  <data key="d3">166.1113035589445</data>
+</node>
+<node id="3331">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de maquinaria y equipo agropecuario, para la construcción y para la industria extractiva</data>
+  <data key="d2">-522.8081065617806</data>
+  <data key="d3">133.3316276744167</data>
+</node>
+<node id="3333">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de maquinaria y equipo para el comercio y los servicios</data>
+  <data key="d2">-529.0569879513417</data>
+  <data key="d3">98.3116817444014</data>
+</node>
+<node id="3339">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otra maquinaria y equipo para la industria en general</data>
+  <data key="d2">-667.6247716612527</data>
+  <data key="d3">163.25394471872917</data>
+</node>
+<node id="3363">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de partes para vehículos automotores</data>
+  <data key="d2">-790.2714195821503</data>
+  <data key="d3">158.14849572938613</data>
+</node>
+<node id="3364">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo aeroespacial</data>
+  <data key="d2">-436.7306149735395</data>
+  <data key="d3">68.81017365741799</data>
+</node>
+<node id="3366">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de embarcaciones</data>
+  <data key="d2">-237.39834282093557</data>
+  <data key="d3">145.5597082751284</data>
+</node>
+<node id="3371">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de muebles, excepto de oficina y estantería</data>
+  <data key="d2">-633.9706917777328</data>
+  <data key="d3">180.1785544132825</data>
+</node>
+<node id="3391">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo no electrónico y material desechable de uso médico, dental y para laboratorio, y artículos oftálmicos</data>
+  <data key="d2">-511.4462542423238</data>
+  <data key="d3">62.47536324199158</data>
+</node>
+<node id="3399">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Otras industrias manufactureras</data>
+  <data key="d2">-659.6398071028071</data>
+  <data key="d3">209.9729833693497</data>
+</node>
+<node id="4311">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de abarrotes y alimentos</data>
+  <data key="d2">-1063.7698594106669</data>
+  <data key="d3">194.93806430361437</data>
+</node>
+<node id="4312">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de bebidas, hielo y tabaco</data>
+  <data key="d2">-1186.2490347548983</data>
+  <data key="d3">292.5700437043498</data>
+</node>
+<node id="4321">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de productos textiles y calzado</data>
+  <data key="d2">-349.79214302894337</data>
+  <data key="d3">392.26243583254626</data>
+</node>
+<node id="4331">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de productos farmacéuticos</data>
+  <data key="d2">-503.78682938434974</data>
+  <data key="d3">273.93905000341846</data>
+</node>
+<node id="4332">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de artículos de perfumería, cosméticos y joyería</data>
+  <data key="d2">-295.8553272462451</data>
+  <data key="d3">184.93265646225828</data>
+</node>
+<node id="4334">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de artículos de papelería, libros, revistas y periódicos</data>
+  <data key="d2">-851.6107938393908</data>
+  <data key="d3">305.43275115112317</data>
+</node>
+<node id="4335">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de electrodomésticos menores y aparatos de línea blanca</data>
+  <data key="d2">-424.58071251085886</data>
+  <data key="d3">289.447094705885</data>
+</node>
+<node id="4341">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de materias primas agropecuarias y forestales</data>
+  <data key="d2">-1171.3675301771495</data>
+  <data key="d3">230.5451042092826</data>
+</node>
+<node id="4342">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de materias primas para la industria</data>
+  <data key="d2">-959.3835543815848</data>
+  <data key="d3">220.1764917809811</data>
+</node>
+<node id="4351">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de maquinaria y equipo agropecuario, forestal y para la pesca</data>
+  <data key="d2">-1097.7306122897596</data>
+  <data key="d3">257.80361517415406</data>
+</node>
+<node id="4352">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de maquinaria y equipo para la industria</data>
+  <data key="d2">-874.5056195676414</data>
+  <data key="d3">171.43563359382208</data>
+</node>
+<node id="4354">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de mobiliario y equipo de cómputo y de oficina, y de otra maquinaria y equipo de uso general</data>
+  <data key="d2">-858.1574187992369</data>
+  <data key="d3">139.93925817094575</data>
+</node>
+<node id="4361">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de camiones y de partes y refacciones nuevas para automóviles, camionetas y camiones</data>
+  <data key="d2">-899.8011083556202</data>
+  <data key="d3">197.27794771324764</data>
+</node>
+<node id="4611">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de abarrotes y alimentos</data>
+  <data key="d2">-1113.0107481001596</data>
+  <data key="d3">371.14317916727066</data>
+</node>
+<node id="4612">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de bebidas, hielo y tabaco</data>
+  <data key="d2">-1134.6699724728717</data>
+  <data key="d3">236.43248358812974</data>
+</node>
+<node id="4621">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor en tiendas de autoservicio</data>
+  <data key="d2">-1087.6074396373906</data>
+  <data key="d3">295.17795430118207</data>
+</node>
+<node id="4622">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor en tiendas departamentales</data>
+  <data key="d2">-1088.949688393665</data>
+  <data key="d3">345.4624035522684</data>
+</node>
+<node id="4631">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de productos textiles, excepto ropa</data>
+  <data key="d2">-1116.10587368822</data>
+  <data key="d3">147.61819194675064</data>
+</node>
+<node id="4632">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de ropa, bisutería y accesorios de vestir</data>
+  <data key="d2">-1097.897881209075</data>
+  <data key="d3">221.13751273128955</data>
+</node>
+<node id="4633">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de calzado</data>
+  <data key="d2">-1175.8915543173596</data>
+  <data key="d3">330.2801280238644</data>
+</node>
+<node id="4641">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos para el cuidado de la salud</data>
+  <data key="d2">-1218.655604295738</data>
+  <data key="d3">114.94141932070819</data>
+</node>
+<node id="4651">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos de perfumería y joyería</data>
+  <data key="d2">-1086.1078684988415</data>
+  <data key="d3">168.64240904591662</data>
+</node>
+<node id="4652">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos para el esparcimiento</data>
+  <data key="d2">-1115.6413473328018</data>
+  <data key="d3">316.32469759677366</data>
+</node>
+<node id="4653">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos de papelería, libros, revistas y periódicos</data>
+  <data key="d2">-1150.5581393107295</data>
+  <data key="d3">201.2051242033859</data>
+</node>
+<node id="4659">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de mascotas y sus accesorios, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal</data>
+  <data key="d2">-1158.483353710424</data>
+  <data key="d3">374.1395227378671</data>
+</node>
+<node id="4661">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de muebles para el hogar y otros enseres domésticos</data>
+  <data key="d2">-1010.1975396766575</data>
+  <data key="d3">182.08902851887026</data>
+</node>
+<node id="4662">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de mobiliario, equipo y accesorios de cómputo, teléfonos y otros aparatos de comunicación</data>
+  <data key="d2">-1031.2298912320427</data>
+  <data key="d3">249.26467110520554</data>
+</node>
+<node id="4663">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos para la decoración de interiores</data>
+  <data key="d2">-1219.5550568328845</data>
+  <data key="d3">232.4230989264781</data>
+</node>
+<node id="4664">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos usados</data>
+  <data key="d2">-1186.8354077528063</data>
+  <data key="d3">135.54364004923633</data>
+</node>
+<node id="4671">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de artículos de ferretería, tlapalería y vidrios</data>
+  <data key="d2">-1143.3721995501182</data>
+  <data key="d3">342.0333709826228</data>
+</node>
+<node id="4681">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de automóviles y camionetas</data>
+  <data key="d2">-1004.0526109814957</data>
+  <data key="d3">273.23338863417405</data>
+</node>
+<node id="4682">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de partes y refacciones para automóviles, camionetas y camiones</data>
+  <data key="d2">-1066.3864449253215</data>
+  <data key="d3">139.0823532807086</data>
+</node>
+<node id="4683">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de motocicletas y otros vehículos de motor</data>
+  <data key="d2">-1061.610778461199</data>
+  <data key="d3">104.21324079772226</data>
+</node>
+<node id="4684">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por menor de combustibles, aceites y grasas lubricantes</data>
+  <data key="d2">-1031.8436629357607</data>
+  <data key="d3">131.05265685444945</data>
+</node>
+<node id="4841">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Autotransporte de carga general</data>
+  <data key="d2">-783.3442825983263</data>
+  <data key="d3">222.47567695564956</data>
+</node>
+<node id="4842">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Autotransporte de carga especializado</data>
+  <data key="d2">-849.6663973430126</data>
+  <data key="d3">236.48291968661158</data>
+</node>
+<node id="4851">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Transporte colectivo urbano y suburbano de pasajeros de ruta fija</data>
+  <data key="d2">-326.1751498272927</data>
+  <data key="d3">557.3008730367891</data>
+</node>
+<node id="4852">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Transporte colectivo foráneo de pasajeros de ruta fija</data>
+  <data key="d2">-359.6029567351303</data>
+  <data key="d3">518.872173842239</data>
+</node>
+<node id="4854">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Transporte escolar y de personal</data>
+  <data key="d2">-622.247341011902</data>
+  <data key="d3">216.75207647647719</data>
+</node>
+<node id="4855">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Alquiler de autobuses con chofer</data>
+  <data key="d2">-558.262523097093</data>
+  <data key="d3">321.97094864956284</data>
+</node>
+<node id="4883">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios relacionados con el transporte por agua</data>
+  <data key="d2">-691.160645697916</data>
+  <data key="d3">546.946219717661</data>
+</node>
+<node id="4884">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios relacionados con el transporte por carretera</data>
+  <data key="d2">-959.1502023518103</data>
+  <data key="d3">154.08337663663858</data>
+</node>
+<node id="4885">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios de intermediación para el transporte de carga</data>
+  <data key="d2">-771.053623844972</data>
+  <data key="d3">257.1494573065602</data>
+</node>
+<node id="4921">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios de mensajería y paquetería foránea</data>
+  <data key="d2">-131.9991823124613</data>
+  <data key="d3">62.703027412797226</data>
+</node>
+<node id="4922">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios de mensajería y paquetería local</data>
+  <data key="d2">-379.25813251704307</data>
+  <data key="d3">346.48048800643465</data>
+</node>
+<node id="4931">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios de almacenamiento</data>
+  <data key="d2">-701.9118653787128</data>
+  <data key="d3">180.5291953749689</data>
+</node>
+<node id="5121">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Industria fílmica y del video</data>
+  <data key="d2">-907.2190558989678</data>
+  <data key="d3">511.7497530996972</data>
+</node>
+<node id="5122">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Industria del sonido</data>
+  <data key="d2">-14.715510385177081</data>
+  <data key="d3">-2.9424140333653623</data>
+</node>
+<node id="5161">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Estaciones de transmisión de programas de radio y televisión</data>
+  <data key="d2">-1076.4227158927945</data>
+  <data key="d3">377.7082408147068</data>
+</node>
+<node id="5162">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios de distribución de audio y video en tiempo real (streaming), redes sociales, cadenas de radio y televisión y otros proveedores de contenido</data>
+  <data key="d2">-33.072251032989435</data>
+  <data key="d3">53.20443100187641</data>
+</node>
+<node id="5223">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Uniones de crédito e instituciones de ahorro</data>
+  <data key="d2">-1062.7055645296953</data>
+  <data key="d3">57.55761443011433</data>
+</node>
+<node id="5224">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Otras instituciones de intermediación crediticia y financiera no bursátil</data>
+  <data key="d2">-1060.9786491391283</data>
+  <data key="d3">320.8197929515438</data>
+</node>
+<node id="5231">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Casas de bolsa, casas de cambio y centros cambiarios</data>
+  <data key="d2">-749.6556864621989</data>
+  <data key="d3">324.92509124558944</data>
+</node>
+<node id="5242">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Servicios relacionados con los seguros y las fianzas, y administración de fondos para el retiro</data>
+  <data key="d2">-515.1509795097998</data>
+  <data key="d3">240.2056146728694</data>
+</node>
+<node id="5311">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Alquiler sin intermediación de bienes raíces</data>
+  <data key="d2">-1194.7706136446282</data>
+  <data key="d3">257.4676958542956</data>
+</node>
+<node id="5312">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Inmobiliarias y corredores de bienes raíces</data>
+  <data key="d2">-935.937901429447</data>
+  <data key="d3">336.50579592342694</data>
+</node>
+<node id="5313">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Servicios relacionados con los servicios inmobiliarios</data>
+  <data key="d2">-957.6222867598498</data>
+  <data key="d3">409.0100892297363</data>
+</node>
+<node id="5321">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Alquiler de automóviles, camiones y otros transportes terrestres</data>
+  <data key="d2">-856.2677643798552</data>
+  <data key="d3">371.2419595738397</data>
+</node>
+<node id="5322">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Alquiler de artículos para el hogar y personales</data>
+  <data key="d2">-1157.1707537374402</data>
+  <data key="d3">265.1720702725477</data>
+</node>
+<node id="5323">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Centros generales de alquiler</data>
+  <data key="d2">-692.8746358451133</data>
+  <data key="d3">219.15483172401127</data>
+</node>
+<node id="5324">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Alquiler de maquinaria y equipo agropecuario, pesquero, industrial, comercial y de servicios</data>
+  <data key="d2">-1002.4135670085519</data>
+  <data key="d3">148.5373835122949</data>
+</node>
+<node id="5411">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios legales</data>
+  <data key="d2">-1105.13023615423</data>
+  <data key="d3">114.20794889576587</data>
+</node>
+<node id="5412">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de contabilidad, auditoría y servicios relacionados</data>
+  <data key="d2">-1027.9438077788022</data>
+  <data key="d3">211.71137924235416</data>
+</node>
+<node id="5413">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de arquitectura, ingeniería y actividades relacionadas</data>
+  <data key="d2">-941.8455535948659</data>
+  <data key="d3">122.30761490085007</data>
+</node>
+<node id="5414">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Diseño especializado</data>
+  <data key="d2">-985.9314801735226</data>
+  <data key="d3">305.77734155795616</data>
+</node>
+<node id="5415">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de diseño de sistemas de cómputo y servicios relacionados</data>
+  <data key="d2">-442.8160253192442</data>
+  <data key="d3">253.8703569890912</data>
+</node>
+<node id="5416">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de consultoría administrativa, científica y técnica</data>
+  <data key="d2">-461.2797785956839</data>
+  <data key="d3">285.9403152297635</data>
+</node>
+<node id="5418">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de publicidad y actividades relacionadas</data>
+  <data key="d2">-458.99576627152163</data>
+  <data key="d3">353.80425374406303</data>
+</node>
+<node id="5419">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Otros servicios profesionales, científicos y técnicos</data>
+  <data key="d2">-1044.3366627820549</data>
+  <data key="d3">353.7414616463193</data>
+</node>
+<node id="5611">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de administración de negocios</data>
+  <data key="d2">-578.9414381351305</data>
+  <data key="d3">257.2050463154167</data>
+</node>
+<node id="5613">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de empleo</data>
+  <data key="d2">-401.7038004610421</data>
+  <data key="d3">258.06495954652763</data>
+</node>
+<node id="5614">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de apoyo secretarial, fotocopiado, cobranza, investigación crediticia y similares</data>
+  <data key="d2">-476.92690900978926</data>
+  <data key="d3">246.143269414603</data>
+</node>
+<node id="5615">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Agencias de viajes y servicios de reservaciones</data>
+  <data key="d2">-913.4072698166852</data>
+  <data key="d3">411.4919830434801</data>
+</node>
+<node id="5616">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de investigación, protección y seguridad</data>
+  <data key="d2">-974.3501329173166</data>
+  <data key="d3">254.6108624883713</data>
+</node>
+<node id="5617">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de limpieza</data>
+  <data key="d2">-713.6820115783347</data>
+  <data key="d3">246.15757896540651</data>
+</node>
+<node id="5619">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Otros servicios de apoyo a los negocios</data>
+  <data key="d2">-434.569847450872</data>
+  <data key="d3">33.85069859601173</data>
+</node>
+<node id="5621">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Recolección de residuos</data>
+  <data key="d2">-491.84846461627274</data>
+  <data key="d3">208.30962924042575</data>
+</node>
+<node id="5629">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de remediación, recuperación, y otros servicios de manejo de residuos</data>
+  <data key="d2">-455.67619851650727</data>
+  <data key="d3">217.2542798052585</data>
+</node>
+<node id="6111">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Escuelas de educación básica, media y para necesidades especiales</data>
+  <data key="d2">-979.2172497469489</data>
+  <data key="d3">122.05573063917413</data>
+</node>
+<node id="6113">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Escuelas de educación superior</data>
+  <data key="d2">-972.1740693615275</data>
+  <data key="d3">187.46284681933136</data>
+</node>
+<node id="6115">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Escuelas de oficios</data>
+  <data key="d2">-1118.2852563798824</data>
+  <data key="d3">186.70815802364638</data>
+</node>
+<node id="6116">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Otros servicios educativos</data>
+  <data key="d2">-1064.1444658993862</data>
+  <data key="d3">236.0436436271224</data>
+</node>
+<node id="6211">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Consultorios médicos</data>
+  <data key="d2">-995.0137913118931</data>
+  <data key="d3">225.75919939167196</data>
+</node>
+<node id="6212">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Consultorios dentales</data>
+  <data key="d2">-1229.5101735925414</data>
+  <data key="d3">278.1012203309846</data>
+</node>
+<node id="6213">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Otros consultorios para el cuidado de la salud</data>
+  <data key="d2">-1008.7075575528298</data>
+  <data key="d3">360.7149584497255</data>
+</node>
+<node id="6214">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Centros para la atención de pacientes que no requieren hospitalización</data>
+  <data key="d2">-919.9775068032621</data>
+  <data key="d3">291.5125127158532</data>
+</node>
+<node id="6215">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Laboratorios médicos y de diagnóstico</data>
+  <data key="d2">-1042.681120503822</data>
+  <data key="d3">167.60078813994562</data>
+</node>
+<node id="6219">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Servicios de ambulancias, de bancos de órganos y otros servicios auxiliares al tratamiento médico</data>
+  <data key="d2">-871.1226049495494</data>
+  <data key="d3">276.9542450491776</data>
+</node>
+<node id="6221">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Hospitales generales</data>
+  <data key="d2">-768.75686945545</data>
+  <data key="d3">189.036162987478</data>
+</node>
+<node id="6223">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Hospitales de otras especialidades médicas</data>
+  <data key="d2">-810.7918248297851</data>
+  <data key="d3">301.1416649008877</data>
+</node>
+<node id="6231">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Residencias con cuidados de enfermeras para enfermos convalecientes, en rehabilitación, incurables y terminales</data>
+  <data key="d2">-474.93269549711215</data>
+  <data key="d3">75.4238584139943</data>
+</node>
+<node id="6232">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Residencias para el cuidado de personas con problemas de retardo mental, trastorno mental y adicciones</data>
+  <data key="d2">-916.9062305827401</data>
+  <data key="d3">160.34380077730586</data>
+</node>
+<node id="6233">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Asilos y otras residencias para el cuidado de ancianos</data>
+  <data key="d2">-837.0108618825662</data>
+  <data key="d3">271.09103915012423</data>
+</node>
+<node id="6239">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Orfanatos y otras residencias de asistencia social</data>
+  <data key="d2">-748.6824412465886</data>
+  <data key="d3">227.34058557993683</data>
+</node>
+<node id="6241">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Servicios de orientación y trabajo social</data>
+  <data key="d2">-1173.5824573118477</data>
+  <data key="d3">101.88012731412796</data>
+</node>
+<node id="6242">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Servicios comunitarios de alimentación, refugio y emergencia</data>
+  <data key="d2">-805.2052041381016</data>
+  <data key="d3">254.90661219930834</data>
+</node>
+<node id="6243">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Servicios de capacitación para el trabajo para personas desempleadas, subempleadas o con discapacidad</data>
+  <data key="d2">-662.1702743740117</data>
+  <data key="d3">565.1318128456774</data>
+</node>
+<node id="6244">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Guarderías</data>
+  <data key="d2">-937.7607396445085</data>
+  <data key="d3">261.1174678362144</data>
+</node>
+<node id="7111">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Compañías y grupos de espectáculos artísticos y culturales</data>
+  <data key="d2">-1062.016080127894</data>
+  <data key="d3">271.38839211888836</data>
+</node>
+<node id="7113">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Promotores de espectáculos artísticos, culturales, deportivos y similares</data>
+  <data key="d2">-675.7659396580681</data>
+  <data key="d3">255.5379996306203</data>
+</node>
+<node id="7115">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Artistas, escritores y técnicos independientes</data>
+  <data key="d2">-444.9944730806954</data>
+  <data key="d3">320.18558658104183</data>
+</node>
+<node id="7131">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Parques con instalaciones recreativas y casas de juegos electrónicos</data>
+  <data key="d2">-898.4829620946422</data>
+  <data key="d3">321.76759160895847</data>
+</node>
+<node id="7132">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Casinos, loterías y otros juegos de azar</data>
+  <data key="d2">-1034.0617888645588</data>
+  <data key="d3">296.4599193871816</data>
+</node>
+<node id="7139">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Otros servicios recreativos</data>
+  <data key="d2">-1148.1660234304122</data>
+  <data key="d3">129.10961784776643</data>
+</node>
+<node id="7211">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Hoteles, moteles y similares</data>
+  <data key="d2">-991.9838376641583</data>
+  <data key="d3">393.509566493753</data>
+</node>
+<node id="7213">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Pensiones y casas de huéspedes, y departamentos y casas amueblados con servicios de hotelería</data>
+  <data key="d2">-1235.032537463945</data>
+  <data key="d3">195.40280383474138</data>
+</node>
+<node id="7224">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Centros nocturnos, bares, cantinas y similares</data>
+  <data key="d2">-1136.3965829638416</data>
+  <data key="d3">95.46224352624402</data>
+</node>
+<node id="7225">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Servicios de preparación de alimentos y bebidas alcohólicas y no alcohólicas</data>
+  <data key="d2">-1248.479763532447</data>
+  <data key="d3">149.57800910355388</data>
+</node>
+<node id="8111">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Reparación y mantenimiento de automóviles y camiones</data>
+  <data key="d2">-1095.1948144386702</data>
+  <data key="d3">80.89912111929492</data>
+</node>
+<node id="8112">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Reparación y mantenimiento de equipo electrónico y de equipo de precisión</data>
+  <data key="d2">-1148.426629803255</data>
+  <data key="d3">306.66290985693945</data>
+</node>
+<node id="8113">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Reparación y mantenimiento de maquinaria y equipo agropecuario, industrial, comercial y de servicios</data>
+  <data key="d2">-964.1120452930658</data>
+  <data key="d3">86.40458212403354</data>
+</node>
+<node id="8114">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Reparación y mantenimiento de artículos para el hogar y personales</data>
+  <data key="d2">-1125.1698233827985</data>
+  <data key="d3">57.84345753230802</data>
+</node>
+<node id="8121">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Salones y clínicas de belleza, baños públicos y bolerías</data>
+  <data key="d2">-1194.535735546472</data>
+  <data key="d3">205.13046054804036</data>
+</node>
+<node id="8122">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Lavanderías y tintorerías </data>
+  <data key="d2">-1218.1848658011254</data>
+  <data key="d3">311.3032611275169</data>
+</node>
+<node id="8123">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Servicios funerarios y administración de cementerios </data>
+  <data key="d2">-1212.68072955251</data>
+  <data key="d3">163.8974568261246</data>
+</node>
+<node id="8124">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Estacionamientos y pensiones para vehículos automotores </data>
+  <data key="d2">-1159.6373555506607</data>
+  <data key="d3">63.780662013222006</data>
+</node>
+<node id="8129">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Servicios de revelado e impresión de fotografías y otros servicios personales </data>
+  <data key="d2">-1034.603993803477</data>
+  <data key="d3">80.05482937400832</data>
+</node>
+<node id="8131">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Asociaciones y organizaciones comerciales, laborales, profesionales y recreativas </data>
+  <data key="d2">-976.1394025950036</data>
+  <data key="d3">341.15275911161467</data>
+</node>
+<node id="8132">
+  <data key="d0">Otros servicios</data>
+  <data key="d1">Asociaciones y organizaciones religiosas, políticas y civiles </data>
+  <data key="d2">-1257.1201528647657</data>
+  <data key="d3">228.23758867434532</data>
+</node>
+<node id="2131">
+  <data key="d0">Minería y Energía</data>
+  <data key="d1">Servicios relacionados con la minería</data>
+  <data key="d2">-282.33302820601864</data>
+  <data key="d3">285.55299322412907</data>
+</node>
+<node id="2373">
+  <data key="d0">Construcción</data>
+  <data key="d1">Construcción de vías de comunicación</data>
+  <data key="d2">-399.5610149685342</data>
+  <data key="d3">447.1213148289114</data>
+</node>
+<node id="3113">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Elaboración de azúcares, chocolates, dulces y similares</data>
+  <data key="d2">-587.0877290195563</data>
+  <data key="d3">219.92536887991275</data>
+</node>
+<node id="3131">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Preparación e hilado de fibras textiles, y fabricación de hilos</data>
+  <data key="d2">-581.5475345054356</data>
+  <data key="d3">63.80308326430371</data>
+</node>
+<node id="3133">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Acabado de productos textiles y fabricación de telas recubiertas</data>
+  <data key="d2">-389.30297975433973</data>
+  <data key="d3">108.7554861167407</data>
+</node>
+<node id="3149">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros productos textiles, excepto prendas de vestir</data>
+  <data key="d2">-1095.3989975306981</data>
+  <data key="d3">36.95654886174579</data>
+</node>
+<node id="3151">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de prendas de vestir de tejido de punto</data>
+  <data key="d2">-794.1519342113544</data>
+  <data key="d3">26.80459337581575</data>
+</node>
+<node id="3152">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Confección de prendas de vestir</data>
+  <data key="d2">-1028.8650090452984</data>
+  <data key="d3">43.26101728580124</data>
+</node>
+<node id="3159">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Confección de accesorios de vestir y otras prendas de vestir no clasificados en otra parte</data>
+  <data key="d2">-779.4609563177171</data>
+  <data key="d3">-43.58819630148475</data>
+</node>
+<node id="3211">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Aserrado y conservación de la madera</data>
+  <data key="d2">-574.6828280215711</data>
+  <data key="d3">28.610361723323248</data>
+</node>
+<node id="3212">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de laminados y aglutinados de madera</data>
+  <data key="d2">-153.64000854012602</data>
+  <data key="d3">258.2801985489831</data>
+</node>
+<node id="3222">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos de cartón y papel</data>
+  <data key="d2">-764.9221878290308</data>
+  <data key="d3">294.3463361557908</data>
+</node>
+<node id="4832">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Transporte por aguas interiores</data>
+  <data key="d2">-492.934639268119</data>
+  <data key="d3">362.76194163018533</data>
+</node>
+<node id="4853">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicio de taxis y limusinas</data>
+  <data key="d2">-344.741139898279</data>
+  <data key="d3">355.47411945103147</data>
+</node>
+<node id="4859">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Otro transporte terrestre de pasajeros</data>
+  <data key="d2">-45.623138871875554</data>
+  <data key="d3">136.12073020715093</data>
+</node>
+<node id="4881">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios relacionados con el transporte aéreo</data>
+  <data key="d2">-492.0855139973068</data>
+  <data key="d3">307.94401453769126</data>
+</node>
+<node id="5131">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Edición de periódicos, revistas, libros, directorios y otros materiales</data>
+  <data key="d2">-402.5440345575328</data>
+  <data key="d3">319.0827066062582</data>
+</node>
+<node id="5179">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Otros servicios de telecomunicaciones</data>
+  <data key="d2">-655.2995330647308</data>
+  <data key="d3">283.0043150600822</data>
+</node>
+<node id="5417">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios de investigación científica y desarrollo</data>
+  <data key="d2">-264.00880753333917</data>
+  <data key="d3">200.31056181204798</data>
+</node>
+<node id="5622">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Tratamiento y disposición final de residuos</data>
+  <data key="d2">-127.10191229039016</data>
+  <data key="d3">128.1153516406897</data>
+</node>
+<node id="6114">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Escuelas comerciales, de computación y de capacitación para ejecutivos</data>
+  <data key="d2">-421.6838439354299</data>
+  <data key="d3">353.2323264297564</data>
+</node>
+<node id="7121">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Museos, sitios históricos, zoológicos y similares</data>
+  <data key="d2">-907.7641313383598</data>
+  <data key="d3">473.579505128964</data>
+</node>
+<node id="7212">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Campamentos y albergues recreativos</data>
+  <data key="d2">-459.81101967329465</data>
+  <data key="d3">391.98628395000435</data>
+</node>
+<node id="3132">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de telas</data>
+  <data key="d2">-454.72836154126173</data>
+  <data key="d3">103.92186436157724</data>
+</node>
+<node id="4889">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Otros servicios relacionados con el transporte</data>
+  <data key="d2">-277.07734078452154</data>
+  <data key="d3">81.28455237766958</data>
+</node>
+<node id="5192">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Bibliotecas, archivos, portales de búsqueda en la red y otros servicios de suministro de información</data>
+  <data key="d2">-306.8775329768547</data>
+  <data key="d3">27.885790510787213</data>
+</node>
+<node id="1152">
+  <data key="d0">Recursos naturales</data>
+  <data key="d1">Servicios relacionados con la cría y explotación de animales</data>
+  <data key="d2">-273.1697766156679</data>
+  <data key="d3">43.53406025523106</data>
+</node>
+<node id="3259">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros productos químicos</data>
+  <data key="d2">-561.681540489589</data>
+  <data key="d3">189.78695031511484</data>
+</node>
+<node id="3262">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos de hule</data>
+  <data key="d2">-417.8804791398413</data>
+  <data key="d3">227.20192277376154</data>
+</node>
+<node id="3315">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Moldeo por fundición de piezas metálicas</data>
+  <data key="d2">-574.2919934350514</data>
+  <data key="d3">150.02329010668362</data>
+</node>
+<node id="3362">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de carrocerías y remolques</data>
+  <data key="d2">-471.7051206627714</data>
+  <data key="d3">179.57946896204513</data>
+</node>
+<node id="3372">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de muebles de oficina y estantería</data>
+  <data key="d2">-345.7537847305533</data>
+  <data key="d3">230.13274023107428</data>
+</node>
+<node id="4343">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de materiales de desecho</data>
+  <data key="d2">-902.723120991329</data>
+  <data key="d3">126.5261034519891</data>
+</node>
+<node id="5239">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Asesoría en inversiones y otros servicios relacionados con la intermediación bursátil</data>
+  <data key="d2">-364.6405955819276</data>
+  <data key="d3">194.76874132616385</data>
+</node>
+<node id="6112">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Escuelas de educación técnica superior</data>
+  <data key="d2">-508.2822085301063</data>
+  <data key="d3">175.76433060238378</data>
+</node>
+<node id="2121">
+  <data key="d0">Minería y Energía</data>
+  <data key="d1">Minería de carbón mineral</data>
+  <data key="d2">-767.1538490169752</data>
+  <data key="d3">-115.56296335673008</data>
+</node>
+<node id="2122">
+  <data key="d0">Minería y Energía</data>
+  <data key="d1">Minería de minerales metálicos</data>
+  <data key="d2">-289.8147035278932</data>
+  <data key="d3">639.6804293204697</data>
+</node>
+<node id="2213">
+  <data key="d0">Minería y Energía</data>
+  <data key="d1">Captación, tratamiento y suministro de agua</data>
+  <data key="d2">-483.5332414700389</data>
+  <data key="d3">144.3386529233424</data>
+</node>
+<node id="3162">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de calzado</data>
+  <data key="d2">-164.92098801380513</data>
+  <data key="d3">22.093346957179744</data>
+</node>
+<node id="3169">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros productos de cuero, piel y materiales sucedáneos</data>
+  <data key="d2">-328.6869225955946</data>
+  <data key="d3">425.38313118898463</data>
+</node>
+<node id="3251">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos químicos básicos</data>
+  <data key="d2">-356.9247312552583</data>
+  <data key="d3">26.837281680231403</data>
+</node>
+<node id="3252">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de resinas y hules sintéticos, y fibras químicas</data>
+  <data key="d2">-313.80003081685817</data>
+  <data key="d3">84.8489765625597</data>
+</node>
+<node id="3254">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos farmacéuticos</data>
+  <data key="d2">-328.22058225803505</data>
+  <data key="d3">117.85695104585645</data>
+</node>
+<node id="3255">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de pinturas, recubrimientos y adhesivos</data>
+  <data key="d2">-416.58813828865107</data>
+  <data key="d3">155.01337835809446</data>
+</node>
+<node id="3261">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos de plástico</data>
+  <data key="d2">-540.3706856473442</data>
+  <data key="d3">162.49978556616787</data>
+</node>
+<node id="3272">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de vidrio y productos de vidrio</data>
+  <data key="d2">-355.0157308598869</data>
+  <data key="d3">93.79763784440418</data>
+</node>
+<node id="3321">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos metálicos forjados y troquelados</data>
+  <data key="d2">-369.0786100919421</data>
+  <data key="d3">59.70492337605147</data>
+</node>
+<node id="3322">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de herramientas de mano sin motor y utensilios de cocina metálicos</data>
+  <data key="d2">-381.9808702722273</data>
+  <data key="d3">226.9661971079295</data>
+</node>
+<node id="3326">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de alambre, productos de alambre y resortes</data>
+  <data key="d2">-400.01506169552096</data>
+  <data key="d3">75.80022794568981</data>
+</node>
+<node id="3328">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Recubrimientos y terminados metálicos</data>
+  <data key="d2">-597.9505817558831</data>
+  <data key="d3">179.84571054201055</data>
+</node>
+<node id="3329">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros productos metálicos</data>
+  <data key="d2">-556.0090896924185</data>
+  <data key="d3">120.89648033481505</data>
+</node>
+<node id="3332">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de maquinaria y equipo para las industrias manufactureras, excepto la metalmecánica</data>
+  <data key="d2">-362.3210371790588</data>
+  <data key="d3">259.9549595206793</data>
+</node>
+<node id="3334">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo de aire acondicionado, calefacción, y de refrigeración industrial y comercial</data>
+  <data key="d2">-448.88155208026166</data>
+  <data key="d3">142.98724925067512</data>
+</node>
+<node id="3335">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de maquinaria y equipo para la industria metalmecánica</data>
+  <data key="d2">-399.19510575011384</data>
+  <data key="d3">192.8866758484462</data>
+</node>
+<node id="3336">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de motores de combustión interna, turbinas y transmisiones</data>
+  <data key="d2">-246.73114546858977</data>
+  <data key="d3">230.21725249009393</data>
+</node>
+<node id="3344">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de componentes electrónicos</data>
+  <data key="d2">-423.23746266252164</data>
+  <data key="d3">117.56549933616382</data>
+</node>
+<node id="3351">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de accesorios de iluminación</data>
+  <data key="d2">-306.75616036138626</data>
+  <data key="d3">224.10179057120743</data>
+</node>
+<node id="3359">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otros equipos y accesorios eléctricos</data>
+  <data key="d2">-329.06321547489625</data>
+  <data key="d3">197.80142713461916</data>
+</node>
+<node id="3361">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de automóviles y camiones</data>
+  <data key="d2">-527.8317967479476</data>
+  <data key="d3">298.66089249785125</data>
+</node>
+<node id="3365">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo ferroviario</data>
+  <data key="d2">-236.77132508295875</data>
+  <data key="d3">296.42814189980936</data>
+</node>
+<node id="3379">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de colchones, persianas y cortineros</data>
+  <data key="d2">-331.99965562628586</data>
+  <data key="d3">55.308615401650265</data>
+</node>
+<node id="4353">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de maquinaria y equipo para los servicios y para actividades comerciales</data>
+  <data key="d2">-292.6920055696569</data>
+  <data key="d3">120.45523592518323</data>
+</node>
+<node id="4882">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Servicios relacionados con el transporte por ferrocarril</data>
+  <data key="d2">-253.03810775344073</data>
+  <data key="d3">332.7554826278038</data>
+</node>
+<node id="5612">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Servicios integrales de apoyo a los negocios en instalaciones</data>
+  <data key="d2">-257.4516709350473</data>
+  <data key="d3">110.39514916748887</data>
+</node>
+<node id="6222">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Hospitales psiquiátricos y para el tratamiento por adicción</data>
+  <data key="d2">-399.565286597249</data>
+  <data key="d3">40.08282329430766</data>
+</node>
+<node id="7223">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Servicios de preparación de alimentos por encargo</data>
+  <data key="d2">-472.0732892153522</data>
+  <data key="d3">36.0265870034533</data>
+</node>
+<node id="3312">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos de hierro y acero</data>
+  <data key="d2">-362.030126490631</data>
+  <data key="d3">130.61360760038642</data>
+</node>
+<node id="2379">
+  <data key="d0">Construcción</data>
+  <data key="d1">Otras construcciones de ingeniería civil</data>
+  <data key="d2">-87.46263827249888</data>
+  <data key="d3">9.165732785435948</data>
+</node>
+<node id="3221">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de pulpa, papel y cartón</data>
+  <data key="d2">-206.1168164905372</data>
+  <data key="d3">128.29867584419029</data>
+</node>
+<node id="3241">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de productos derivados del petróleo y del carbón</data>
+  <data key="d2">-312.0187996414247</data>
+  <data key="d3">153.43317026581587</data>
+</node>
+<node id="3325">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de herrajes y cerraduras</data>
+  <data key="d2">-275.44448085312996</data>
+  <data key="d3">249.46627324720808</data>
+</node>
+<node id="3369">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de otro equipo de transporte</data>
+  <data key="d2">-241.65646118901708</data>
+  <data key="d3">60.59071901455461</data>
+</node>
+<node id="4333">
+  <data key="d0">Comercio</data>
+  <data key="d1">Comercio al por mayor de grabaciones de audio y video en medios físicos, juguetes y artículos deportivos</data>
+  <data key="d2">-345.070794475138</data>
+  <data key="d3">161.51866138859836</data>
+</node>
+<node id="4373">
+  <data key="d0">Comercio</data>
+  <data key="d1">Intermediación de comercio al por mayor</data>
+  <data key="d2">-321.83664529737774</data>
+  <data key="d3">258.75096710755</data>
+</node>
+<node id="5132">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Edición de software</data>
+  <data key="d2">-171.57807442217234</data>
+  <data key="d3">59.810956348273656</data>
+</node>
+<node id="5173">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Operadores de servicios de telecomunicaciones alámbricas e inalámbricas</data>
+  <data key="d2">-51.591918387497074</data>
+  <data key="d3">4.674776610784902</data>
+</node>
+<node id="5182">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Provisión de infraestructura de servicios de cómputo, procesamiento de datos, hospedaje de páginas de internet y otros servicios relacionados</data>
+  <data key="d2">-147.29054934865678</data>
+  <data key="d3">95.5988626171929</data>
+</node>
+<node id="5211">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Banca central</data>
+  <data key="d2">-126.51138035158979</data>
+  <data key="d3">13.101970263108848</data>
+</node>
+<node id="5221">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Banca múltiple</data>
+  <data key="d2">-93.26285067454282</data>
+  <data key="d3">86.74164105740641</data>
+</node>
+<node id="5222">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Instituciones financieras de fomento económico</data>
+  <data key="d2">-103.86966020488646</data>
+  <data key="d3">42.035044411598</data>
+</node>
+<node id="5225">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Servicios relacionados con la intermediación crediticia no bursátil</data>
+  <data key="d2">-69.88409968131711</data>
+  <data key="d3">40.840312566661744</data>
+</node>
+<node id="5241">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Compañías de seguros y fianzas</data>
+  <data key="d2">-57.864795372026485</data>
+  <data key="d3">84.40591263532907</data>
+</node>
+<node id="5331">
+  <data key="d0">Servicios financieros y mobiliarios</data>
+  <data key="d1">Servicios de alquiler de marcas registradas, patentes y franquicias</data>
+  <data key="d2">-6.192092575599169</data>
+  <data key="d3">30.96770256291564</data>
+</node>
+<node id="5511">
+  <data key="d0">Servicios profesionales y de apoyo</data>
+  <data key="d1">Dirección y administración de grupos empresariales o corporativos</data>
+  <data key="d2">-206.01057836298574</data>
+  <data key="d3">63.73987707717208</data>
+</node>
+<node id="6117">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Servicios de apoyo a la educación</data>
+  <data key="d2">-223.5061078594821</data>
+  <data key="d3">97.25782311791458</data>
+</node>
+<node id="3161">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Curtido y acabado de cuero y piel</data>
+  <data key="d2">-202.90220384487048</data>
+  <data key="d3">28.50364935168006</data>
+</node>
+<node id="3313">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Industria básica del aluminio</data>
+  <data key="d2">-169.3853919887347</data>
+  <data key="d3">137.19796118080473</data>
+</node>
+<node id="3314">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Industrias de metales no ferrosos, excepto aluminio</data>
+  <data key="d2">-183.46213774992358</data>
+  <data key="d3">97.45317835431358</data>
+</node>
+<node id="3342">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo de comunicación</data>
+  <data key="d2">-167.46804987991942</data>
+  <data key="d3">180.66613777711675</data>
+</node>
+<node id="3345">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de instrumentos de medición, control, navegación, y equipo médico electrónico</data>
+  <data key="d2">-210.8516707341022</data>
+  <data key="d3">229.13379416169465</data>
+</node>
+<node id="3352">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de aparatos eléctricos de uso doméstico</data>
+  <data key="d2">-233.25622158072852</data>
+  <data key="d3">181.5781487105335</data>
+</node>
+<node id="3353">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo de generación y distribución de energía eléctrica</data>
+  <data key="d2">-198.76162554917158</data>
+  <data key="d3">165.29898807178444</data>
+</node>
+<node id="4691">
+  <data key="d0">Comercio</data>
+  <data key="d1">Intermediación de comercio al por menor, y comercio al por menor a través de catálogos impresos, televisión y similares</data>
+  <data key="d2">-120.59899778148784</data>
+  <data key="d3">270.9672799458236</data>
+</node>
+<node id="4871">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Transporte turístico por tierra</data>
+  <data key="d2">-290.98249729575696</data>
+  <data key="d3">412.9865491779974</data>
+</node>
+<node id="6216">
+  <data key="d0">Servicios educativos y de salud</data>
+  <data key="d1">Servicios de enfermería a domicilio</data>
+  <data key="d2">-81.40060852214157</data>
+  <data key="d3">133.08593141782512</data>
+</node>
+<node id="7112">
+  <data key="d0">Hospedaje y esparcimiento</data>
+  <data key="d1">Deportistas y equipos deportivos profesionales</data>
+  <data key="d2">-540.9796608798001</data>
+  <data key="d3">266.351633696467</data>
+</node>
+<node id="4872">
+  <data key="d0">Transporte y Comunicaciones</data>
+  <data key="d1">Transporte turístico por agua</data>
+  <data key="d2">-270.085845028643</data>
+  <data key="d3">446.9354082247304</data>
+</node>
+<node id="3122">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Industria del tabaco</data>
+  <data key="d2">-171.53583103499886</data>
+  <data key="d3">224.00221486969264</data>
+</node>
+<node id="3343">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de equipo de audio y de video</data>
+  <data key="d2">-190.54230935522455</data>
+  <data key="d3">265.077487630233</data>
+</node>
+<node id="3341">
+  <data key="d0">Manufactura</data>
+  <data key="d1">Fabricación de computadoras y equipo periférico</data>
+  <data key="d2">-136.95066642398243</data>
+  <data key="d3">163.66934735837592</data>
+</node>
+<edge source="1141" target="1125">
+  <data key="d4">0.476190476190476</data>
+</edge>
+<edge source="1141" target="5312">
+  <data key="d4">0.391304347826087</data>
+</edge>
+<edge source="1141" target="7131"/>
+<edge source="1125" target="2371">
+  <data key="d4">0.384615384615385</data>
+</edge>
+<edge source="1125" target="3117">
+  <data key="d4">0.363636363636364</data>
+</edge>
+<edge source="1151" target="3117">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="2123" target="4852">
+  <data key="d4">0.375</data>
+</edge>
+<edge source="2361" target="2362">
+  <data key="d4">0.655172413793103</data>
+</edge>
+<edge source="2361" target="5312">
+  <data key="d4">0.607142857142857</data>
+</edge>
+<edge source="2361" target="6232">
+  <data key="d4">0.566666666666667</data>
+</edge>
+<edge source="2361" target="5414">
+  <data key="d4">0.535714285714286</data>
+</edge>
+<edge source="2361" target="4361"/>
+<edge source="2361" target="4342"/>
+<edge source="2361" target="5412"/>
+<edge source="2361" target="3112"/>
+<edge source="2361" target="3115"/>
+<edge source="2361" target="2372"/>
+<edge source="2361" target="4884"/>
+<edge source="2361" target="6214"/>
+<edge source="2362" target="4361">
+  <data key="d4">0.620689655172414</data>
+</edge>
+<edge source="2362" target="5616">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="2362" target="2372">
+  <data key="d4">0.533333333333333</data>
+</edge>
+<edge source="2362" target="5413">
+  <data key="d4">0.482758620689655</data>
+</edge>
+<edge source="2362" target="5324"/>
+<edge source="2362" target="6116"/>
+<edge source="2362" target="4681"/>
+<edge source="2362" target="6213"/>
+<edge source="2362" target="5224"/>
+<edge source="2362" target="4841"/>
+<edge source="2362" target="3112"/>
+<edge source="2362" target="3323"/>
+<edge source="2371" target="4335"/>
+<edge source="2371" target="4855"/>
+<edge source="2372" target="4342"/>
+<edge source="2372" target="3323"/>
+<edge source="2372" target="4681"/>
+<edge source="2372" target="6232"/>
+<edge source="2372" target="2381"/>
+<edge source="2372" target="6214"/>
+<edge source="2372" target="8113"/>
+<edge source="2381" target="4354">
+  <data key="d4">0.470588235294118</data>
+</edge>
+<edge source="2381" target="6221">
+  <data key="d4">0.454545454545455</data>
+</edge>
+<edge source="2381" target="3362"/>
+<edge source="2382" target="3339">
+  <data key="d4">0.55</data>
+</edge>
+<edge source="2382" target="4354">
+  <data key="d4">0.55</data>
+</edge>
+<edge source="2382" target="5617">
+  <data key="d4">0.55</data>
+</edge>
+<edge source="2382" target="5321">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="2382" target="5621">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="2382" target="4841"/>
+<edge source="2382" target="2383"/>
+<edge source="2382" target="3116"/>
+<edge source="2382" target="4931"/>
+<edge source="2383" target="6223">
+  <data key="d4">0.523809523809524</data>
+</edge>
+<edge source="2383" target="4855">
+  <data key="d4">0.428571428571429</data>
+</edge>
+<edge source="2383" target="5323"/>
+<edge source="2389" target="3315">
+  <data key="d4">0.555555555555556</data>
+</edge>
+<edge source="2389" target="3372">
+  <data key="d4">0.555555555555556</data>
+</edge>
+<edge source="2389" target="5242">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="2389" target="5611"/>
+<edge source="2389" target="3329"/>
+<edge source="2389" target="3362"/>
+<edge source="3111" target="3112">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="3112" target="6233">
+  <data key="d4">0.533333333333333</data>
+</edge>
+<edge source="3112" target="4931">
+  <data key="d4">0.470588235294118</data>
+</edge>
+<edge source="3112" target="3116">
+  <data key="d4">0.444444444444444</data>
+</edge>
+<edge source="3112" target="3328"/>
+<edge source="3112" target="4361"/>
+<edge source="3114" target="3399">
+  <data key="d4">0.368421052631579</data>
+</edge>
+<edge source="3115" target="4661">
+  <data key="d4">0.51219512195122</data>
+</edge>
+<edge source="3115" target="4361"/>
+<edge source="3115" target="4343"/>
+<edge source="3115" target="4352"/>
+<edge source="3115" target="5412"/>
+<edge source="3116" target="5617"/>
+<edge source="3116" target="4931"/>
+<edge source="3117" target="4883">
+  <data key="d4">0.285714285714286</data>
+</edge>
+<edge source="3117" target="6243">
+  <data key="d4">0.25</data>
+</edge>
+<edge source="3118" target="4632">
+  <data key="d4">0.904761904761905</data>
+</edge>
+<edge source="3118" target="8114">
+  <data key="d4">0.880597014925373</data>
+</edge>
+<edge source="3118" target="6215"/>
+<edge source="3118" target="8113"/>
+<edge source="3118" target="4311"/>
+<edge source="3118" target="7132"/>
+<edge source="3118" target="6111"/>
+<edge source="3119" target="6244">
+  <data key="d4">0.432432432432432</data>
+</edge>
+<edge source="3119" target="6113"/>
+<edge source="3119" target="4341"/>
+<edge source="3119" target="5223"/>
+<edge source="3121" target="6215">
+  <data key="d4">0.723404255319149</data>
+</edge>
+<edge source="3121" target="7224"/>
+<edge source="3121" target="5322"/>
+<edge source="3121" target="4664"/>
+<edge source="3121" target="4653"/>
+<edge source="3121" target="4621"/>
+<edge source="3121" target="3219"/>
+<edge source="3121" target="7225"/>
+<edge source="3121" target="4661"/>
+<edge source="3121" target="8113"/>
+<edge source="3121" target="7132"/>
+<edge source="3121" target="4311"/>
+<edge source="3121" target="6115"/>
+<edge source="3121" target="5411"/>
+<edge source="3141" target="3132">
+  <data key="d4">0.545454545454545</data>
+</edge>
+<edge source="3141" target="5614"/>
+<edge source="3141" target="3372"/>
+<edge source="3219" target="4663">
+  <data key="d4">0.583333333333333</data>
+</edge>
+<edge source="3219" target="6241"/>
+<edge source="3219" target="8114"/>
+<edge source="3219" target="5311"/>
+<edge source="3219" target="4641"/>
+<edge source="3219" target="5324"/>
+<edge source="3219" target="4351"/>
+<edge source="3219" target="4632"/>
+<edge source="3219" target="4341"/>
+<edge source="3219" target="4664"/>
+<edge source="3219" target="5411"/>
+<edge source="3219" target="4662"/>
+<edge source="3231" target="3399">
+  <data key="d4">0.526315789473684</data>
+</edge>
+<edge source="3231" target="3261">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3231" target="3362"/>
+<edge source="3231" target="3328"/>
+<edge source="3231" target="4331"/>
+<edge source="3231" target="5629"/>
+<edge source="3253" target="3326">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3253" target="3333"/>
+<edge source="3253" target="5619"/>
+<edge source="3253" target="3331"/>
+<edge source="3253" target="3261"/>
+<edge source="3256" target="3255">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3256" target="3254"/>
+<edge source="3256" target="5621"/>
+<edge source="3256" target="3241"/>
+<edge source="3271" target="3327">
+  <data key="d4">0.458333333333333</data>
+</edge>
+<edge source="3271" target="3279">
+  <data key="d4">0.434782608695652</data>
+</edge>
+<edge source="3271" target="6214"/>
+<edge source="3273" target="5412">
+  <data key="d4">0.558139534883721</data>
+</edge>
+<edge source="3273" target="7213"/>
+<edge source="3273" target="4621"/>
+<edge source="3273" target="3323"/>
+<edge source="3273" target="4651"/>
+<edge source="3273" target="5224"/>
+<edge source="3273" target="6116"/>
+<edge source="3273" target="4684"/>
+<edge source="3273" target="4659"/>
+<edge source="3273" target="5414"/>
+<edge source="3273" target="4662"/>
+<edge source="3273" target="5311"/>
+<edge source="3273" target="4341"/>
+<edge source="3273" target="7132"/>
+<edge source="3273" target="4612"/>
+<edge source="3273" target="5322"/>
+<edge source="3273" target="6115"/>
+<edge source="3273" target="4631"/>
+<edge source="3274" target="3331">
+  <data key="d4">0.416666666666667</data>
+</edge>
+<edge source="3274" target="3371"/>
+<edge source="3274" target="3279"/>
+<edge source="3279" target="7113">
+  <data key="d4">0.434782608695652</data>
+</edge>
+<edge source="3279" target="3371"/>
+<edge source="3279" target="3327"/>
+<edge source="3279" target="5323"/>
+<edge source="3323" target="5311">
+  <data key="d4">0.590909090909091</data>
+</edge>
+<edge source="3323" target="5412"/>
+<edge source="3323" target="4611"/>
+<edge source="3323" target="4661"/>
+<edge source="3323" target="5616"/>
+<edge source="3323" target="6213"/>
+<edge source="3323" target="4663"/>
+<edge source="3323" target="8112"/>
+<edge source="3323" target="4311"/>
+<edge source="3323" target="4652"/>
+<edge source="3323" target="8131"/>
+<edge source="3324" target="4373">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="3324" target="5612">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="3324" target="4353">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3324" target="5239">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3324" target="3221">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3324" target="3241">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3324" target="4332">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3324" target="5417">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3324" target="6117">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3324" target="3366">
+  <data key="d4">0.25</data>
+</edge>
+<edge source="3324" target="3254"/>
+<edge source="3324" target="3312"/>
+<edge source="3327" target="4343">
+  <data key="d4">0.625</data>
+</edge>
+<edge source="3327" target="4841">
+  <data key="d4">0.625</data>
+</edge>
+<edge source="3327" target="4931"/>
+<edge source="3327" target="6232"/>
+<edge source="3327" target="3363"/>
+<edge source="3327" target="4352"/>
+<edge source="3331" target="3315">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3331" target="5613"/>
+<edge source="3333" target="3315">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3339" target="3363">
+  <data key="d4">0.647058823529412</data>
+</edge>
+<edge source="3339" target="3328">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3339" target="6239">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3339" target="4854">
+  <data key="d4">0.533333333333333</data>
+</edge>
+<edge source="3339" target="3329"/>
+<edge source="3339" target="3399"/>
+<edge source="3363" target="4842">
+  <data key="d4">0.565217391304348</data>
+</edge>
+<edge source="3363" target="3371">
+  <data key="d4">0.411764705882353</data>
+</edge>
+<edge source="3363" target="4361"/>
+<edge source="3364" target="3391">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="3364" target="6222"/>
+<edge source="3364" target="6231"/>
+<edge source="3371" target="3113">
+  <data key="d4">0.375</data>
+</edge>
+<edge source="3371" target="3399"/>
+<edge source="3371" target="6112"/>
+<edge source="3391" target="3329">
+  <data key="d4">0.636363636363636</data>
+</edge>
+<edge source="3391" target="7223">
+  <data key="d4">0.454545454545455</data>
+</edge>
+<edge source="3399" target="4931"/>
+<edge source="3399" target="3113"/>
+<edge source="3399" target="4841"/>
+<edge source="4311" target="4341">
+  <data key="d4">0.66</data>
+</edge>
+<edge source="4311" target="4351">
+  <data key="d4">0.659574468085106</data>
+</edge>
+<edge source="4311" target="8113"/>
+<edge source="4311" target="4683"/>
+<edge source="4311" target="6244"/>
+<edge source="4311" target="4681"/>
+<edge source="4311" target="6213"/>
+<edge source="4311" target="6211"/>
+<edge source="4311" target="4312"/>
+<edge source="4311" target="5324"/>
+<edge source="4311" target="4641"/>
+<edge source="4311" target="7225"/>
+<edge source="4311" target="4684"/>
+<edge source="4311" target="7224"/>
+<edge source="4311" target="4664"/>
+<edge source="4311" target="8121"/>
+<edge source="4311" target="4682"/>
+<edge source="4311" target="7111"/>
+<edge source="4311" target="5616"/>
+<edge source="4311" target="7139"/>
+<edge source="4311" target="8123"/>
+<edge source="4312" target="5411">
+  <data key="d4">0.654545454545455</data>
+</edge>
+<edge source="4312" target="8122"/>
+<edge source="4312" target="8131"/>
+<edge source="4312" target="5412"/>
+<edge source="4312" target="5322"/>
+<edge source="4312" target="5311"/>
+<edge source="4312" target="4631"/>
+<edge source="4312" target="4659"/>
+<edge source="4312" target="4632"/>
+<edge source="4312" target="4341"/>
+<edge source="4312" target="4611"/>
+<edge source="4312" target="4633"/>
+<edge source="4312" target="8112"/>
+<edge source="4312" target="8132"/>
+<edge source="4321" target="4922">
+  <data key="d4">0.416666666666667</data>
+</edge>
+<edge source="4321" target="3169">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="4331" target="4335">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="4332" target="4333"/>
+<edge source="4332" target="4373"/>
+<edge source="4334" target="6219">
+  <data key="d4">0.411764705882353</data>
+</edge>
+<edge source="4335" target="5613">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4335" target="4922">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="4335" target="4853">
+  <data key="d4">0.375</data>
+</edge>
+<edge source="4335" target="4881">
+  <data key="d4">0.375</data>
+</edge>
+<edge source="4335" target="4373"/>
+<edge source="4341" target="4682">
+  <data key="d4">0.714285714285714</data>
+</edge>
+<edge source="4341" target="4661">
+  <data key="d4">0.62</data>
+</edge>
+<edge source="4341" target="4651"/>
+<edge source="4341" target="8114"/>
+<edge source="4341" target="6215"/>
+<edge source="4341" target="4663"/>
+<edge source="4341" target="8111"/>
+<edge source="4341" target="8123"/>
+<edge source="4341" target="4652"/>
+<edge source="4341" target="5322"/>
+<edge source="4341" target="5311"/>
+<edge source="4341" target="8132"/>
+<edge source="4342" target="4361">
+  <data key="d4">0.516129032258065</data>
+</edge>
+<edge source="4342" target="5412"/>
+<edge source="4342" target="5617"/>
+<edge source="4342" target="6116"/>
+<edge source="4342" target="6211"/>
+<edge source="4342" target="8131"/>
+<edge source="4342" target="4661"/>
+<edge source="4342" target="4343"/>
+<edge source="4342" target="6111"/>
+<edge source="4342" target="6115"/>
+<edge source="4342" target="6232"/>
+<edge source="4351" target="4664"/>
+<edge source="4351" target="5224"/>
+<edge source="4351" target="6244"/>
+<edge source="4351" target="4684"/>
+<edge source="4351" target="4671"/>
+<edge source="4351" target="8111"/>
+<edge source="4351" target="7139"/>
+<edge source="4351" target="4663"/>
+<edge source="4351" target="4611"/>
+<edge source="4351" target="4632"/>
+<edge source="4351" target="8131"/>
+<edge source="4351" target="5616"/>
+<edge source="4352" target="4361">
+  <data key="d4">0.555555555555556</data>
+</edge>
+<edge source="4352" target="4354"/>
+<edge source="4352" target="6244"/>
+<edge source="4354" target="5413"/>
+<edge source="4361" target="4842">
+  <data key="d4">0.518518518518518</data>
+</edge>
+<edge source="4361" target="6232"/>
+<edge source="4361" target="5324"/>
+<edge source="4361" target="4841"/>
+<edge source="4361" target="6111"/>
+<edge source="4361" target="5616"/>
+<edge source="4611" target="4632">
+  <data key="d4">0.919354838709677</data>
+</edge>
+<edge source="4611" target="4633">
+  <data key="d4">0.870967741935484</data>
+</edge>
+<edge source="4611" target="4671">
+  <data key="d4">0.868852459016393</data>
+</edge>
+<edge source="4611" target="4659">
+  <data key="d4">0.85</data>
+</edge>
+<edge source="4611" target="4653">
+  <data key="d4">0.766666666666667</data>
+</edge>
+<edge source="4611" target="5224"/>
+<edge source="4611" target="5419"/>
+<edge source="4611" target="8122"/>
+<edge source="4611" target="6213"/>
+<edge source="4611" target="4621"/>
+<edge source="4612" target="7225">
+  <data key="d4">0.850746268656716</data>
+</edge>
+<edge source="4612" target="4621"/>
+<edge source="4612" target="6116"/>
+<edge source="4612" target="4662"/>
+<edge source="4621" target="8131">
+  <data key="d4">0.693548387096774</data>
+</edge>
+<edge source="4621" target="7132">
+  <data key="d4">0.576923076923077</data>
+</edge>
+<edge source="4621" target="5224"/>
+<edge source="4621" target="5616"/>
+<edge source="4621" target="4683"/>
+<edge source="4621" target="8122"/>
+<edge source="4621" target="4659"/>
+<edge source="4621" target="4662"/>
+<edge source="4621" target="4663"/>
+<edge source="4621" target="8129"/>
+<edge source="4622" target="6244">
+  <data key="d4">0.513513513513513</data>
+</edge>
+<edge source="4622" target="7132"/>
+<edge source="4622" target="4652"/>
+<edge source="4622" target="8122"/>
+<edge source="4631" target="4652">
+  <data key="d4">0.704545454545455</data>
+</edge>
+<edge source="4631" target="4653">
+  <data key="d4">0.702127659574468</data>
+</edge>
+<edge source="4631" target="3152">
+  <data key="d4">0.431818181818182</data>
+</edge>
+<edge source="4631" target="8111"/>
+<edge source="4631" target="7213"/>
+<edge source="4631" target="6111"/>
+<edge source="4631" target="7224"/>
+<edge source="4631" target="8112"/>
+<edge source="4631" target="4641"/>
+<edge source="4631" target="6213"/>
+<edge source="4631" target="8132"/>
+<edge source="4631" target="5411"/>
+<edge source="4631" target="4661"/>
+<edge source="4631" target="8113"/>
+<edge source="4631" target="5412"/>
+<edge source="4632" target="6111"/>
+<edge source="4632" target="4652"/>
+<edge source="4632" target="5419"/>
+<edge source="4632" target="7139"/>
+<edge source="4632" target="6116"/>
+<edge source="4633" target="8122"/>
+<edge source="4633" target="8132"/>
+<edge source="4633" target="6213"/>
+<edge source="4633" target="5412"/>
+<edge source="4633" target="4652"/>
+<edge source="4633" target="5419"/>
+<edge source="4641" target="8114">
+  <data key="d4">0.895522388059702</data>
+</edge>
+<edge source="4641" target="8121">
+  <data key="d4">0.830769230769231</data>
+</edge>
+<edge source="4641" target="7139"/>
+<edge source="4641" target="8123"/>
+<edge source="4651" target="5419">
+  <data key="d4">0.605263157894737</data>
+</edge>
+<edge source="4651" target="7131">
+  <data key="d4">0.411764705882353</data>
+</edge>
+<edge source="4651" target="8129"/>
+<edge source="4651" target="8123"/>
+<edge source="4651" target="4661"/>
+<edge source="4651" target="7139"/>
+<edge source="4651" target="8124"/>
+<edge source="4651" target="5311"/>
+<edge source="4651" target="6215"/>
+<edge source="4651" target="7132"/>
+<edge source="4651" target="8111"/>
+<edge source="4651" target="4662"/>
+<edge source="4652" target="4661"/>
+<edge source="4652" target="8122"/>
+<edge source="4652" target="6212"/>
+<edge source="4652" target="5419"/>
+<edge source="4652" target="7139"/>
+<edge source="4652" target="8112"/>
+<edge source="4652" target="5224"/>
+<edge source="4652" target="6213"/>
+<edge source="4652" target="4681"/>
+<edge source="4652" target="6211"/>
+<edge source="4652" target="4671"/>
+<edge source="4653" target="4663">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="4653" target="8112">
+  <data key="d4">0.725490196078431</data>
+</edge>
+<edge source="4653" target="4661"/>
+<edge source="4653" target="4664"/>
+<edge source="4653" target="8111"/>
+<edge source="4653" target="5224"/>
+<edge source="4653" target="6241"/>
+<edge source="4653" target="8121"/>
+<edge source="4653" target="6211"/>
+<edge source="4659" target="4662">
+  <data key="d4">0.775862068965517</data>
+</edge>
+<edge source="4661" target="5616"/>
+<edge source="4661" target="5224"/>
+<edge source="4661" target="8129"/>
+<edge source="4661" target="5412"/>
+<edge source="4661" target="8124"/>
+<edge source="4662" target="8131"/>
+<edge source="4662" target="8113"/>
+<edge source="4662" target="5324"/>
+<edge source="4662" target="6111"/>
+<edge source="4662" target="6213"/>
+<edge source="4662" target="6116"/>
+<edge source="4662" target="4681"/>
+<edge source="4663" target="8124">
+  <data key="d4">0.6875</data>
+</edge>
+<edge source="4663" target="5419">
+  <data key="d4">0.625</data>
+</edge>
+<edge source="4663" target="8132"/>
+<edge source="4663" target="5412"/>
+<edge source="4663" target="7213"/>
+<edge source="4663" target="4684"/>
+<edge source="4663" target="7224"/>
+<edge source="4664" target="8111">
+  <data key="d4">0.859154929577465</data>
+</edge>
+<edge source="4664" target="7213"/>
+<edge source="4664" target="5412"/>
+<edge source="4664" target="6116"/>
+<edge source="4664" target="7139"/>
+<edge source="4664" target="6241"/>
+<edge source="4671" target="7111"/>
+<edge source="4671" target="6115"/>
+<edge source="4681" target="6213">
+  <data key="d4">0.68</data>
+</edge>
+<edge source="4681" target="6111">
+  <data key="d4">0.652173913043478</data>
+</edge>
+<edge source="4681" target="5224">
+  <data key="d4">0.543478260869565</data>
+</edge>
+<edge source="4681" target="7132"/>
+<edge source="4681" target="5419"/>
+<edge source="4681" target="6115"/>
+<edge source="4681" target="4683"/>
+<edge source="4681" target="8131"/>
+<edge source="4681" target="8114"/>
+<edge source="4681" target="5616"/>
+<edge source="4681" target="5412"/>
+<edge source="4681" target="8121"/>
+<edge source="4681" target="6211"/>
+<edge source="4682" target="8121">
+  <data key="d4">0.745762711864407</data>
+</edge>
+<edge source="4682" target="7111"/>
+<edge source="4682" target="8123"/>
+<edge source="4682" target="5324"/>
+<edge source="4682" target="7139"/>
+<edge source="4682" target="8129"/>
+<edge source="4682" target="8122"/>
+<edge source="4682" target="6111"/>
+<edge source="4682" target="6113"/>
+<edge source="4683" target="8122">
+  <data key="d4">0.717391304347826</data>
+</edge>
+<edge source="4683" target="6215">
+  <data key="d4">0.702127659574468</data>
+</edge>
+<edge source="4683" target="5223">
+  <data key="d4">0.652173913043478</data>
+</edge>
+<edge source="4683" target="6111"/>
+<edge source="4683" target="7224"/>
+<edge source="4683" target="5411"/>
+<edge source="4684" target="8111">
+  <data key="d4">0.845070422535211</data>
+</edge>
+<edge source="4684" target="8131">
+  <data key="d4">0.797101449275362</data>
+</edge>
+<edge source="4684" target="6115"/>
+<edge source="4684" target="5223"/>
+<edge source="4684" target="5311"/>
+<edge source="4684" target="8113"/>
+<edge source="4684" target="6111"/>
+<edge source="4841" target="4842">
+  <data key="d4">0.608695652173913</data>
+</edge>
+<edge source="4841" target="4885">
+  <data key="d4">0.565217391304348</data>
+</edge>
+<edge source="4841" target="4931">
+  <data key="d4">0.478260869565217</data>
+</edge>
+<edge source="4841" target="6221"/>
+<edge source="4841" target="6242"/>
+<edge source="4842" target="4885"/>
+<edge source="4842" target="6244"/>
+<edge source="4851" target="4852">
+  <data key="d4">0.388888888888889</data>
+</edge>
+<edge source="4852" target="2373">
+  <data key="d4">0.4375</data>
+</edge>
+<edge source="4852" target="2122">
+  <data key="d4">0.0625</data>
+</edge>
+<edge source="4854" target="3261"/>
+<edge source="4854" target="5617"/>
+<edge source="4854" target="3328"/>
+<edge source="4855" target="5418">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4884" target="5413">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4884" target="6215"/>
+<edge source="4884" target="6111"/>
+<edge source="4884" target="6113"/>
+<edge source="4885" target="6242">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4885" target="3222">
+  <data key="d4">0.444444444444444</data>
+</edge>
+<edge source="4885" target="6239"/>
+<edge source="4921" target="2379">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="3221">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="3369">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5132">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5173">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5182">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5211">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5221">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5222">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5225">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5241">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5331">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4921" target="5511">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4931" target="3315"/>
+<edge source="4931" target="3261"/>
+<edge source="4931" target="5323"/>
+<edge source="5121" target="7121">
+  <data key="d4">0.416666666666667</data>
+</edge>
+<edge source="5122" target="2379">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5122" target="5331"/>
+<edge source="5122" target="5173"/>
+<edge source="5161" target="5224">
+  <data key="d4">0.393939393939394</data>
+</edge>
+<edge source="5162" target="2379">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5162" target="5241"/>
+<edge source="5162" target="5173"/>
+<edge source="5162" target="5331"/>
+<edge source="5162" target="5225"/>
+<edge source="5223" target="5411"/>
+<edge source="5223" target="5412"/>
+<edge source="5223" target="7213"/>
+<edge source="5223" target="7139"/>
+<edge source="5223" target="8114"/>
+<edge source="5223" target="8111"/>
+<edge source="5223" target="7224"/>
+<edge source="5224" target="5324">
+  <data key="d4">0.545454545454545</data>
+</edge>
+<edge source="5224" target="8129"/>
+<edge source="5224" target="6116"/>
+<edge source="5224" target="6211"/>
+<edge source="5224" target="8111"/>
+<edge source="5224" target="5419"/>
+<edge source="5231" target="3222">
+  <data key="d4">0.411764705882353</data>
+</edge>
+<edge source="5242" target="5611">
+  <data key="d4">0.545454545454545</data>
+</edge>
+<edge source="5242" target="5614">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5311" target="8123">
+  <data key="d4">0.659090909090909</data>
+</edge>
+<edge source="5311" target="6244">
+  <data key="d4">0.522727272727273</data>
+</edge>
+<edge source="5311" target="5322"/>
+<edge source="5311" target="8132"/>
+<edge source="5311" target="7139"/>
+<edge source="5311" target="6115"/>
+<edge source="5311" target="8122"/>
+<edge source="5311" target="5616"/>
+<edge source="5311" target="8112"/>
+<edge source="5312" target="6214">
+  <data key="d4">0.565217391304348</data>
+</edge>
+<edge source="5312" target="5324"/>
+<edge source="5313" target="5615">
+  <data key="d4">0.45</data>
+</edge>
+<edge source="5313" target="7211"/>
+<edge source="5321" target="5615"/>
+<edge source="5322" target="6212">
+  <data key="d4">0.766666666666667</data>
+</edge>
+<edge source="5322" target="6215"/>
+<edge source="5322" target="5412"/>
+<edge source="5322" target="5414"/>
+<edge source="5322" target="6241"/>
+<edge source="5322" target="5419"/>
+<edge source="5322" target="8129"/>
+<edge source="5322" target="8122"/>
+<edge source="5322" target="6116"/>
+<edge source="5322" target="7213"/>
+<edge source="5323" target="6221">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5323" target="7113"/>
+<edge source="5324" target="7139"/>
+<edge source="5324" target="6116"/>
+<edge source="5324" target="7224"/>
+<edge source="5324" target="5419"/>
+<edge source="5324" target="6241"/>
+<edge source="5324" target="5413"/>
+<edge source="5324" target="6213"/>
+<edge source="5324" target="8129"/>
+<edge source="5324" target="8131"/>
+<edge source="5324" target="6215"/>
+<edge source="5324" target="5616"/>
+<edge source="5324" target="6211"/>
+<edge source="5411" target="6241">
+  <data key="d4">0.763636363636364</data>
+</edge>
+<edge source="5411" target="5419"/>
+<edge source="5411" target="6116"/>
+<edge source="5411" target="8129"/>
+<edge source="5411" target="8113"/>
+<edge source="5411" target="5412"/>
+<edge source="5411" target="7139"/>
+<edge source="5411" target="6115"/>
+<edge source="5412" target="6213">
+  <data key="d4">0.72</data>
+</edge>
+<edge source="5412" target="8123">
+  <data key="d4">0.651162790697674</data>
+</edge>
+<edge source="5412" target="8113">
+  <data key="d4">0.613636363636364</data>
+</edge>
+<edge source="5412" target="7111"/>
+<edge source="5412" target="8124"/>
+<edge source="5412" target="5414"/>
+<edge source="5412" target="8112"/>
+<edge source="5413" target="8113"/>
+<edge source="5414" target="6214"/>
+<edge source="5414" target="6116"/>
+<edge source="5415" target="3322">
+  <data key="d4">0.714285714285714</data>
+</edge>
+<edge source="5415" target="3332">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="5415" target="3255"/>
+<edge source="5415" target="5416"/>
+<edge source="5415" target="4353"/>
+<edge source="5415" target="3362"/>
+<edge source="5415" target="6112"/>
+<edge source="5416" target="5611">
+  <data key="d4">0.538461538461538</data>
+</edge>
+<edge source="5416" target="5131">
+  <data key="d4">0.411764705882353</data>
+</edge>
+<edge source="5416" target="5418"/>
+<edge source="5416" target="7115"/>
+<edge source="5418" target="2373">
+  <data key="d4">0.466666666666667</data>
+</edge>
+<edge source="5418" target="7115">
+  <data key="d4">0.466666666666667</data>
+</edge>
+<edge source="5419" target="7111"/>
+<edge source="5419" target="6213"/>
+<edge source="5419" target="8131"/>
+<edge source="5611" target="4881"/>
+<edge source="5611" target="5617"/>
+<edge source="5613" target="3322">
+  <data key="d4">0.714285714285714</data>
+</edge>
+<edge source="5613" target="5239">
+  <data key="d4">0.714285714285714</data>
+</edge>
+<edge source="5613" target="3321">
+  <data key="d4">0.571428571428571</data>
+</edge>
+<edge source="5613" target="2131">
+  <data key="d4">0.285714285714286</data>
+</edge>
+<edge source="5613" target="3362"/>
+<edge source="5613" target="3332"/>
+<edge source="5613" target="3262"/>
+<edge source="5613" target="3335"/>
+<edge source="5615" target="7211">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5615" target="7121">
+  <data key="d4">0.45</data>
+</edge>
+<edge source="5616" target="6111">
+  <data key="d4">0.575</data>
+</edge>
+<edge source="5616" target="8123"/>
+<edge source="5616" target="6214"/>
+<edge source="5617" target="6239"/>
+<edge source="5619" target="7223">
+  <data key="d4">0.454545454545455</data>
+</edge>
+<edge source="5619" target="3379"/>
+<edge source="5629" target="3326">
+  <data key="d4">0.363636363636364</data>
+</edge>
+<edge source="5629" target="3332"/>
+<edge source="6111" target="6116">
+  <data key="d4">0.707317073170732</data>
+</edge>
+<edge source="6111" target="6115">
+  <data key="d4">0.55</data>
+</edge>
+<edge source="6111" target="7111">
+  <data key="d4">0.475</data>
+</edge>
+<edge source="6111" target="6211"/>
+<edge source="6111" target="6215"/>
+<edge source="6111" target="8129"/>
+<edge source="6111" target="7224"/>
+<edge source="6113" target="6232">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="6113" target="6213"/>
+<edge source="6113" target="6214"/>
+<edge source="6113" target="7132"/>
+<edge source="6115" target="7111"/>
+<edge source="6115" target="7213"/>
+<edge source="6115" target="6215"/>
+<edge source="6115" target="7224"/>
+<edge source="6115" target="6213"/>
+<edge source="6115" target="8122"/>
+<edge source="6115" target="8114"/>
+<edge source="6115" target="8132"/>
+<edge source="6115" target="8129"/>
+<edge source="6116" target="8129">
+  <data key="d4">0.651162790697674</data>
+</edge>
+<edge source="6116" target="7139">
+  <data key="d4">0.585365853658537</data>
+</edge>
+<edge source="6116" target="8123"/>
+<edge source="6116" target="8132"/>
+<edge source="6116" target="6214"/>
+<edge source="6116" target="8112"/>
+<edge source="6116" target="8124"/>
+<edge source="6116" target="8122"/>
+<edge source="6116" target="7224"/>
+<edge source="6211" target="8114">
+  <data key="d4">0.791044776119403</data>
+</edge>
+<edge source="6211" target="6232"/>
+<edge source="6211" target="8112"/>
+<edge source="6212" target="8121">
+  <data key="d4">0.8</data>
+</edge>
+<edge source="6212" target="6213">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="6212" target="8132"/>
+<edge source="6212" target="6215"/>
+<edge source="6212" target="7213"/>
+<edge source="6213" target="6215"/>
+<edge source="6213" target="8112"/>
+<edge source="6214" target="6219">
+  <data key="d4">0.478260869565217</data>
+</edge>
+<edge source="6214" target="6223">
+  <data key="d4">0.478260869565217</data>
+</edge>
+<edge source="6214" target="6244"/>
+<edge source="6215" target="8131"/>
+<edge source="6215" target="8111"/>
+<edge source="6215" target="6241"/>
+<edge source="6215" target="6232"/>
+<edge source="6219" target="6233"/>
+<edge source="6231" target="3344">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="6231" target="6222"/>
+<edge source="6231" target="3362"/>
+<edge source="6233" target="6242"/>
+<edge source="6241" target="7225">
+  <data key="d4">0.769230769230769</data>
+</edge>
+<edge source="6241" target="8124"/>
+<edge source="6241" target="7224"/>
+<edge source="6241" target="7139"/>
+<edge source="6244" target="4343"/>
+<edge source="7111" target="8121"/>
+<edge source="7111" target="8131"/>
+<edge source="7113" target="5179">
+  <data key="d4">0.444444444444444</data>
+</edge>
+<edge source="7115" target="6114">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="7132" target="8122"/>
+<edge source="7139" target="8121"/>
+<edge source="7139" target="8124"/>
+<edge source="7211" target="7213">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="7213" target="8122">
+  <data key="d4">0.58695652173913</data>
+</edge>
+<edge source="7213" target="7225"/>
+<edge source="7213" target="7224"/>
+<edge source="7224" target="8122">
+  <data key="d4">0.673913043478261</data>
+</edge>
+<edge source="7224" target="8123"/>
+<edge source="7225" target="8114">
+  <data key="d4">0.880597014925373</data>
+</edge>
+<edge source="7225" target="8132">
+  <data key="d4">0.723076923076923</data>
+</edge>
+<edge source="7225" target="8129"/>
+<edge source="7225" target="8124"/>
+<edge source="7225" target="8122"/>
+<edge source="8111" target="8114">
+  <data key="d4">0.873239436619718</data>
+</edge>
+<edge source="8111" target="8129"/>
+<edge source="8112" target="8122">
+  <data key="d4">0.686274509803922</data>
+</edge>
+<edge source="8112" target="8124"/>
+<edge source="8113" target="4343"/>
+<edge source="8114" target="8129"/>
+<edge source="8122" target="8123"/>
+<edge source="8123" target="8129"/>
+<edge source="8123" target="8132"/>
+<edge source="8124" target="3149"/>
+<edge source="8124" target="3152"/>
+<edge source="8124" target="8132"/>
+<edge source="2131" target="3365">
+  <data key="d4">0.25</data>
+</edge>
+<edge source="2131" target="4882">
+  <data key="d4">0.25</data>
+</edge>
+<edge source="3113" target="3259"/>
+<edge source="3131" target="3132">
+  <data key="d4">0.555555555555556</data>
+</edge>
+<edge source="3131" target="3151">
+  <data key="d4">0.454545454545455</data>
+</edge>
+<edge source="3131" target="3211">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="3133" target="2213">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3133" target="3132">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3133" target="3332"/>
+<edge source="3133" target="4333"/>
+<edge source="3133" target="3326"/>
+<edge source="3149" target="3152">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3151" target="3152">
+  <data key="d4">0.434782608695652</data>
+</edge>
+<edge source="3151" target="3159">
+  <data key="d4">0.363636363636364</data>
+</edge>
+<edge source="3159" target="2121">
+  <data key="d4">0.142857142857143</data>
+</edge>
+<edge source="3212" target="3345">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3212" target="4691">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="4832" target="4881">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="4832" target="7212">
+  <data key="d4">0.25</data>
+</edge>
+<edge source="4853" target="4871">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="4859" target="6216">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="5417" target="4373"/>
+<edge source="5622" target="3221">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5622" target="3313">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5622" target="3314">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5622" target="3342">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="5622" target="6216">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="3132" target="3255"/>
+<edge source="3132" target="4333"/>
+<edge source="3132" target="3326"/>
+<edge source="3132" target="6112"/>
+<edge source="3132" target="3252"/>
+<edge source="4889" target="5239">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="4889" target="1152">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="5192" target="3252">
+  <data key="d4">0.4</data>
+</edge>
+<edge source="3259" target="3255">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3259" target="3315"/>
+<edge source="3262" target="3261">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3262" target="3322"/>
+<edge source="3262" target="3332"/>
+<edge source="3262" target="3312"/>
+<edge source="3262" target="3335"/>
+<edge source="3315" target="3329">
+  <data key="d4">0.636363636363636</data>
+</edge>
+<edge source="3315" target="3362">
+  <data key="d4">0.625</data>
+</edge>
+<edge source="3315" target="7112">
+  <data key="d4">0.25</data>
+</edge>
+<edge source="3315" target="3328"/>
+<edge source="3315" target="3326"/>
+<edge source="3315" target="3261"/>
+<edge source="3362" target="6112">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3362" target="5239"/>
+<edge source="3362" target="3322"/>
+<edge source="3362" target="3272"/>
+<edge source="3372" target="3322"/>
+<edge source="3372" target="4353"/>
+<edge source="3372" target="5239"/>
+<edge source="5239" target="3272">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="5239" target="3322"/>
+<edge source="5239" target="3359"/>
+<edge source="5239" target="3326"/>
+<edge source="5239" target="3321"/>
+<edge source="6112" target="2213"/>
+<edge source="3162" target="3161">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3251" target="3272">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3252" target="3379">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3252" target="3272"/>
+<edge source="3252" target="3254"/>
+<edge source="3252" target="3326"/>
+<edge source="3252" target="3369"/>
+<edge source="3254" target="3325">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3254" target="3379">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3254" target="4333"/>
+<edge source="3255" target="3326">
+  <data key="d4">0.625</data>
+</edge>
+<edge source="3255" target="3332"/>
+<edge source="3255" target="4333"/>
+<edge source="3255" target="4373"/>
+<edge source="3255" target="3272"/>
+<edge source="3255" target="3261"/>
+<edge source="3255" target="3241"/>
+<edge source="3261" target="3329">
+  <data key="d4">0.583333333333333</data>
+</edge>
+<edge source="3272" target="3351">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3272" target="3379"/>
+<edge source="3272" target="3326"/>
+<edge source="3272" target="3335"/>
+<edge source="3321" target="3334">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3321" target="3344">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3321" target="3335">
+  <data key="d4">0.571428571428571</data>
+</edge>
+<edge source="3321" target="3312">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3321" target="3326"/>
+<edge source="3322" target="3326">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="3322" target="3325"/>
+<edge source="3326" target="4353"/>
+<edge source="3326" target="4333"/>
+<edge source="3326" target="3344"/>
+<edge source="3328" target="3329">
+  <data key="d4">0.545454545454545</data>
+</edge>
+<edge source="3329" target="3344">
+  <data key="d4">0.545454545454545</data>
+</edge>
+<edge source="3329" target="3334"/>
+<edge source="3332" target="4373"/>
+<edge source="3332" target="3359"/>
+<edge source="3334" target="3344"/>
+<edge source="3334" target="3359"/>
+<edge source="3336" target="3351">
+  <data key="d4">0.333333333333333</data>
+</edge>
+<edge source="3344" target="6222">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3344" target="3359"/>
+<edge source="3351" target="3359">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="3351" target="4373"/>
+<edge source="3359" target="4373"/>
+<edge source="3359" target="3352"/>
+<edge source="3361" target="7112">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3379" target="4333">
+  <data key="d4">0.6</data>
+</edge>
+<edge source="3379" target="5612"/>
+<edge source="4353" target="3221"/>
+<edge source="4353" target="6117"/>
+<edge source="5612" target="3221"/>
+<edge source="6222" target="3312"/>
+<edge source="3312" target="3241"/>
+<edge source="3221" target="5182"/>
+<edge source="3221" target="3314"/>
+<edge source="3221" target="3313"/>
+<edge source="3241" target="6117"/>
+<edge source="3241" target="4373"/>
+<edge source="3325" target="4373">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="3325" target="3345">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3325" target="4333"/>
+<edge source="3369" target="3161">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3369" target="5132"/>
+<edge source="3369" target="6117"/>
+<edge source="5511" target="6117"/>
+<edge source="3313" target="3342"/>
+<edge source="3342" target="3353">
+  <data key="d4">0.666666666666667</data>
+</edge>
+<edge source="3342" target="3341">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3342" target="3352"/>
+<edge source="3345" target="3122">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3345" target="3343">
+  <data key="d4">0.5</data>
+</edge>
+<edge source="3352" target="3353">
+  <data key="d4">0.75</data>
+</edge>
+<edge source="4871" target="4872">
+  <data key="d4">0.5</data>
+</edge>
+</graph></graphml>
