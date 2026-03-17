@@ -72,7 +72,7 @@ def _(mo):
 @app.cell
 def _(pl):
     ## Cargamos datos
-    datos = pl.read_csv("datos/complexity_zm_2023.csv")
+    datos = pl.read_csv("../datos/complexity_zm_2023.csv")
     datos
     return (datos,)
 
@@ -280,15 +280,15 @@ def _(mo):
     Definen tres estrategias de diversificación en los que se ponderan de forma distinta las tres medidas:
 
     * Low-hanging Fruit:
-        * Distancia : 60%
+        * Densidad : 60%
         * Complejidad : 15%
         * Ganancia de Oportunidad : 25
     * Balanced Portfolio:
-        * Distancia : 50%
+        * Densidad : 50%
         * Complejidad : 15%
         * Ganancia de Oportunidad : 35
     * Long Jumps:
-        * Distancia : 45%
+        * Densidad : 45%
         * Complejidad : 20%
         * Ganancia de Oportunidad : 35
 
