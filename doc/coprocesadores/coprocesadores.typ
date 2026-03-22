@@ -80,6 +80,11 @@
     - Circuitos programables.
     - Rápido y flexible.
     - Más lejos del diseño de un CPU genérico.
+  - TPU
+    - Para acelerar TensorFlow, PyTorch y JAX.
+    - Diseñado para sistemas embebidos. Casos de uso potenciales: Procesamiento de Audio, Procesamiento de Imágenes, Interacción con el usuario, etc. 
+
+
 
 ]
 
@@ -297,15 +302,27 @@ def vector_addition(
     #text(font: "Lato", size : 24pt)[
   - Para acelerar TensorFlow y #text(fill: ukj-blue)[*JAX*]
   - Acelerar el proceso de Entrenamiento.
+
+ #figure(
+        image("images/jackson-pic1.png", width: 60%),
+        numbering: none, 
+        caption: [Synaptics Coral Dev Board]
+      )
     ]
 
   ], 
         [
 
  #figure(
-        image("images/tpu.jpeg", width: 95%),
+        image("images/tpu.jpeg", width: 50%),
         numbering: none
       )
+ #figure(
+        image("images/coral_tpu.jpeg", width: 45%),
+        numbering: none, 
+        caption: [Coral Edge TPU]
+      )
+
       ]
 
   )
