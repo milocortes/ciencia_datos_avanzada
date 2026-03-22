@@ -601,6 +601,41 @@ Usa los siguientes parámetros:
 Los valores de $c_1$, $c_2$ y $c_3$ son los obtenidos por Fehr y Kindermann (2018).
 
 ]
+
+#slide[
+  = Solución 
+- a) Podemos reducir la dimensión del problema de optimización al reformular la restricción presupuestaria de la siguiente manera:
+#mitext(`
+\begin{equation}
+    c_1 = w + \dfrac{w - c_2}{1+r} - \dfrac{c_3}{(1+r)^2}
+\end{equation}
+`)
+
+sustituyendo la nueva restricción en nuestra función objetivo, reducimos nuestro problema a un problema en dos dimensiones sin restricciones:
+
+#mitext(`
+\begin{equation}
+    \widetilde{U}(c_2,c_3) = \dfrac{1}{1-\frac{1}{\gamma}} \Bigg[  w + \dfrac{w - c_2}{1+r} - \dfrac{c_3}{(1+r)^2} \Bigg]^{1-\frac{1}{\gamma}} + \beta \dfrac{c_2^{1-\frac{1}{\gamma}}}{1-\frac{1}{\gamma}}+ \beta^2 \dfrac{c_3^{1-\frac{1}{\gamma}}}{1-\frac{1}{\gamma}}
+\end{equation}
+`)
+
+
+]
+
+#slide[
+  = Solución
+- b) Reescribimos el problema de maximización de la utilidad en la siguiente forma:
+
+#mitext(`
+\begin{equation}
+    \min_{c_2,c_3} -\widetilde{U}(c_2,c_3)
+\end{equation}
+`)
+
+- *NOTA 1*: calcula el gradiente de la función #mitext(`$\widetilde{U}(c_2,c_3)$`) usando la función `grad` de JAX.
+  
+- *NOTA 2*: inicia la búsqueda en el punto #mitext(`$[c_2,c_3] = [0.2, 0.2]$`)
+]
 #slide[
   #bibliography("references.bib",  style: "apa")
 ]
