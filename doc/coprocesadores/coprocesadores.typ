@@ -1,10 +1,13 @@
 // Get Polylux from the official package repository
 #import "@preview/polylux:0.4.0": *
-#import "@preview/codly:1.2.0": *
+#import "@preview/codly:1.3.0": *
 #import "@preview/codly-languages:0.1.1": *
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 #import "@preview/pinit:0.2.2": *
 #import "@preview/thmbox:0.3.0": *
+#import "@preview/mitex:0.2.5": *
+#import "@preview/tablem:0.3.0": tablem,three-line-table
+
 
 #show: codly-init.with()
 #codly(zebra-fill: none)
@@ -82,8 +85,6 @@
 
 #slide[
   = FPGA (Field Programmable Gate Array)
-
-
 
 #toolbox.side-by-side(gutter: 3mm, columns: (2fr, 2fr), 
 
@@ -313,7 +314,292 @@ def vector_addition(
 
 
 #slide[
-  = JAX
+  = JAX : A flexible and fast opensource numerical computing library from Google DeepMind
+
+#toolbox.side-by-side(gutter: 3mm, columns: (2fr, 2fr), 
+
+  [
+
+    #text(font: "Lato", size : 17pt)[
+  - JAX proporciona una API estilo NumPy para la adopción fácil de ideas o pruebas de concepto en Cómputo Científico o Machine Learning.
+  - Obtenemos un mayor speed-up simplemente sustituyendo NumPy por JAX NumPy. 
+    ]
+
+  ], 
+        [
+
+
+  #text(font: "Lato", size : 14pt)[
+  ```python 
+  import jax.numpy as jnp 
+
+  def predict(params, inputs):
+    for W,b in params:
+      outputs = jnp.dot(inputs, W) + b 
+      inputs = jnp.tanh(outputs)
+
+    return outputs 
+
+  def loss(params, batch):
+    inputs, targets = batch 
+    preds = predict(params, inputs)
+    
+    return jnp.sum((preds - targets)**2) 
+  ```
+      ]
+  ]
+  )
+]
+
+#slide[
+  = JAX Function Transformation : Automatic Differentation.
+
+
+#toolbox.side-by-side(gutter: 3mm, columns: (2fr, 2fr), 
+
+  [
+
+    #text(font: "Lato", size : 17pt)[
+  - Gradient Transformation : JAX toma cualquier función como input y la transforma en una función que calcula el gradiente de la función original.
+  - Esto lo logra mediante #text(fill: ukj-blue)[*Diferenciación Automática*], comunmente llamada #text(fill: ukj-blue)[*autodiff*], una herramienta crucial en Machine Learning y tareas de optimización.
+  - En este caso transformamos la función de pérdida con `grad` y esto nos permitiría calcular el gradiente de nuestra función de pérdida y ajustar los pesos de nuestro modelo para minimizar el error.
+    ]
+
+  ], 
+        [
+
+    #text(font: "Lato", size : 13pt)[
+#codly(highlights: (
+  (line: 2, start: 1, end: none, fill: red),
+  (line: 17, start: 1, end: none, fill: red),
+))
+  ```python 
+  import jax.numpy as jnp 
+  from jax import grad
+
+  def predict(params, inputs):
+    for W,b in params:
+      outputs = jnp.dot(inputs, W) + b 
+      inputs = jnp.tanh(outputs)
+
+    return outputs 
+
+  def loss(params, batch):
+    inputs, targets = batch 
+    preds = predict(params, inputs)
+    
+    return jnp.sum((preds - targets)**2) 
+
+  gradient_fun = grad(loss)
+  ```
+      ]
+  ]
+  )
+]
+
+
+#slide[
+  = JAX Function Transformation : Batching.
+
+
+#toolbox.side-by-side(gutter: 3mm, columns: (2fr, 2fr), 
+
+  [
+
+    #text(font: "Lato", size : 17pt)[
+  - La función `vmap` facilita la operación de tomar una función que fue escrita para un elemento en una función que funcione para muchos elementos, operación comunmente denominada como #text(fill: ukj-blue)[*vectorización*] o #text(fill: ukj-blue)[*batching*].
+  - En este ejemplo vectorizamos la función que calcula el gradiente de nuestra función de pérdida usando `vmap`, permitiendo calcular los gradientes para múltiples elementos.
+    ]
+
+  ], 
+        [
+
+    #text(font: "Lato", size : 12pt)[
+#codly(highlights: (
+  (line: 2, start: 1, end: none, fill: red),
+  (line: 18, start: 1, end: none, fill: red),
+))
+  ```python 
+  import jax.numpy as jnp 
+  from jax import grad, vmap
+
+  def predict(params, inputs):
+    for W,b in params:
+      outputs = jnp.dot(inputs, W) + b 
+      inputs = jnp.tanh(outputs)
+
+    return outputs 
+
+  def loss(params, batch):
+    inputs, targets = batch 
+    preds = predict(params, inputs)
+    
+    return jnp.sum((preds - targets)**2) 
+
+  gradient_fun = grad(loss)
+  perexample_grads = vmap(grad(loss), in_axes = (None,0))
+  ```
+      ]
+  ]
+  )
+]
+
+
+#slide[
+  = JAX Function Transformation : Compilation.
+
+
+#toolbox.side-by-side(gutter: 3mm, columns: (2fr, 2fr), 
+
+  [
+
+    #text(font: "Lato", size : 17pt)[
+  - ¿JAX cómo acelera el procesamiento? JAX puede ejecutar compilación Just-In-Time, JIT, para crear código optimizado que pueda ejecutarse rapidamente.
+  - La compilación permite reducir la latencia y usar nuestro hardware eficientemente de forma automática, eliminando salidas no usadas y recomputaciones innecesarias.}
+  - También podemos compilar las operaciones de diferenciación automática. 
+    ]
+
+  ], 
+        [
+
+    #text(font: "Lato", size : 11pt)[
+#codly(highlights: (
+  (line: 2, start: 1, end: none, fill: red),
+  (line: 17, start: 1, end: none, fill: red),
+  (line: 18, start: 1, end: none, fill: red),
+))
+  ```python 
+  import jax.numpy as jnp 
+  from jax import grad, vmap, jit
+
+  def predict(params, inputs):
+    for W,b in params:
+      outputs = jnp.dot(inputs, W) + b 
+      inputs = jnp.tanh(outputs)
+
+    return outputs 
+
+  def loss(params, batch):
+    inputs, targets = batch 
+    preds = predict(params, inputs)
+    
+    return jnp.sum((preds - targets)**2) 
+
+  gradient_fun = jit(grad(loss))
+  perexample_grads = jit(vmap(grad(loss), in_axes = (None,0)))
+  ```
+      ]
+  ]
+  )
+]
+
+#slide[
+  = JAX : A flexible and fast numerical computing library 
+
+ #figure(
+        image("images/jax_roadmap.png", width: 50%),
+        numbering: none, 
+        caption: text(font: "Lato", size : 14pt)[JAX provides a set of composable function
+transformations for Python + NumPy code for compilation, vectorization, parallelization, and automatic differentiation. Source : @sapunov2024deep]
+      )
+]
+#slide[
+  = JAX : Run anywhere and scale automatically
+
+#figure(
+  stack(
+    dir: ltr, // Aligns elements horizontally
+    spacing: 1em, // Adds space between figures
+    image("images/gpu.jpeg", width: 35%),
+    image("images/tpu.jpeg", width: 35%),
+    image("images/gpu_cluster.jpg", width: 35%),
+  ),
+) 
+  #text(size: 30pt, font: "Lato")[
+    *Any hardware: CPU, GPU (NVIDIA & AMD), TPU Unified API: Any scale* #import emoji: face
+  ]
+]
+
+#slide[
+  = Evaluemos JAX usando CPU y GPU #link("https://colab.research.google.com/github/milocortes/ciencia_datos_avanzada/blob/main/notebooks/jax_performance_cpu_gpu.ipynb")[#emoji.face.nerd #emoji.computer]
+    #text(font: "Lato", size : 12pt)[
+  ```python 
+  import numpy as np
+  import jax.numpy as jnp 
+  from jax import device_put, devices, jit
+  # a function with some amount of calculations 
+  def f(x):
+    y1 = x + x*x + 3
+    y2 = x*x + x*x.T
+    return y1*y2
+  # generate some random data
+  x = np.random.randn(3_000, 3_000).astype('float32')
+  jax_x_gpu = device_put(jnp.array(x), devices("gpu")[0])
+  jax_x_cpu = device_put(jnp.array(x), devices("cpu")[0])
+  # compile function to CPU and GPU backends with JAX
+  jax_f_gpu = jit(f, backend = "gpu")
+  jax_f_cpu = jit(f, backend = "cpu")
+  # warm-up
+  jax_f_cpu(jax_x_cpu)
+  jax_f_gpu(jax_x_gpu)
+  ```
+      ]
+
+]
+
+#slide[
+  #text(size: 16pt, font: "Lato")[
+  = JAX para solucionar problema de optimización intertemporal de los hogares @fehr2018introduction #link("https://colab.research.google.com/github/milocortes/ciencia_datos_avanzada/blob/main/notebooks/jax_problema_optimizacion_intertemporal.ipynb")[#emoji.face.nerd #emoji.computer ]
+
+  Considera el siguiente problema de optimización intertemporal de los hogares: La función de utilidad de los hogares está dada por
+
+#mitext(`
+\begin{equation}
+    U(c_1,c_2,c_3) = \sum_{i=1}^3 \beta^{i-1} u(c_i)\qquad \text{con} \qquad u(c_i) = \dfrac{c_i^{1-\frac{1}{\gamma}}}{1 - \frac{1}{\gamma}}
+\end{equation}
+ `)
+
+donde $c_i$ define el consumo en el periodo $i$ de vida, $beta$ denota la tasa de descuento y $gamma$ es la elasticidad de sustitución intertemporal.
+
+Asume que los hogares reciben ingreso laboral $w$ en los primeros dos periodos y consumen todos sus ahorros en el tercer periodo, de manera que la restricción presupuestaria queda definida como:
+
+#mitext(`
+\begin{equation}
+    \sum_{i=1}^{3} \dfrac{c_i}{(1+r)^{i-1}} = \sum_{i=1}^{2} \dfrac{w}{(1+r)^{i-1}}
+\end{equation}
+ `)
+donde $r$ es la tasa de interés.
+
+  ]
+]
+
+#slide[
+Resuelve los niveles de consumo óptimo usando algún método de optimización de primer orden.
+
+Procede de la siguiente manera:
+
+- a) #mitext(`Sustituye la restricción presupuestaria en la función de utilidad de manera que esta dependa únicamente de $c_2$ y $c_3$.`)
+- b) #mitext(`Minimiza la función $-\widetilde{U}(c_2,c_3)$ con el objetivo de obtener los valores óptimos de $c_2$ y $c_3$ ($c_2^*$ y $c_3^*$).`)
+- c) #mitext(`Deriva $c_1^*$ de la restricción presupuestaria.`)
+
+Usa los siguientes parámetros:
+* $gamma=0.5$
+* $beta=1$
+]
+
+#slide[
+  Realiza el siguiente análisis de sensibilidad variando el valor de $w$ y $r$ de acuerdo a la siguiente tabla:
+
+#three-line-table[
+|   $w$ |   $r$ |   $c_1$ |   $c_2$ |   $c_3$ |
+|------:|------:|--------:|------:|------:|
+|     1 |   0   |    0.66 |  0.66 |  0.66 |
+|     2 |   0   |    1.33 |  1.33 |  1.33 |
+|     1 |   0.1 |    0.66 |  0.69 |  0.73 |
+]
+
+Los valores de $c_1$, $c_2$ y $c_3$ son los obtenidos por Fehr y Kindermann (2018).
+
 ]
 #slide[
   #bibliography("references.bib",  style: "apa")
