@@ -17,3 +17,5 @@ Repositorio de la clase de Ciencia de Datos Avanzada de la Maestría en Economí
 - Duckdb.
 - Arquitecturas Heterogeneas : GPU y TPU.
 
+
+https://teams.microsoft.com/meet/27723978078075?p=TFvk1kw9TQpXtE6FeU
