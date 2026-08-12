@@ -140,6 +140,29 @@
 
   )
 ]
+
+#slide[
+  == Apache Parquet, a columnar storage format
+        #figure(
+        image("images/parquet2.jpg", width: 75%),
+        numbering: none
+      )
+
+]
+
+#slide[
+  == Parquet, a columnar storage format
+  - Parquet almacena los datos en columnas en lugar de en filas, a diferencia de los formatos de almacenamiento tradicionales basados ​​en filas (como CSV o JSON).
+ - Este diseño columnar implica que, cuando una consulta solo necesita acceder a unos pocos campos o columnas específicos de un conjunto de datos, Parquet puede leer únicamente las columnas relevantes sin cargar la fila completa en la memoria.
+ - Parquet también emplea diversas técnicas para mejorar aún más el rendimiento y reducir los costes de almacenamiento:
+  - Compression
+  - Encoding
+  - Metadata and statistics
+]
+
+
+
+
 #slide[
   == PyArrow Arrays
     #toolbox.side-by-side(gutter: 3mm, columns: (2fr, 1.5fr), 
